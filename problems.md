@@ -5,3 +5,7 @@
 ## Unknown
 
 - [851.Loud and Rich](./Unknown/851.loud-and-rich.java)
+
+## POD
+
+- [1704. Determine if String Halves Are Alike](./POD/1704.determine-if-string-halves-are-alike.java)
