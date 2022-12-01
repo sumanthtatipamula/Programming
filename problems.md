@@ -10,8 +10,10 @@
 
 - [1704. Determine if String Halves Are Alike](./POD/1704.determine-if-string-halves-are-alike.java)
 
+<pre>
 📦Amazon
 ┣ 📂Arrays_Strings
 ┣ 📜Amazon.docx
 ┣ 📜amz.png
 ┗ 📜[top-amazon-questions-.png](./Amazon/top-amazon-questions-.png)
+</pre>
