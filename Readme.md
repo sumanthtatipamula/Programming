@@ -1,6 +1,7 @@
 # Amazon
 
 - [Arrays_Strings/](./Amazon/Arrays_Strings)
+  - [1.two-sum.java](./Amazon/1.two-sum.java)
 - [Amazon.docx](./Amazon/Amazon.docx)
 - [amz.png](./Amazon/amz.png)
 - [top-amazon-questions-.png](./Amazon/top-amazon-questions-.png)
