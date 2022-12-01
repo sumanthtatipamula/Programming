@@ -1,4 +1,4 @@
-package Amazon;
+package Amazon.Arrays_Strings;
 /*
  * @lc app=leetcode id=1 lang=java
  *
