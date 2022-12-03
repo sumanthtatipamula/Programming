@@ -19,20 +19,29 @@
 
 # Google
 
+- [Arrays_Strings/](./Google/Arrays_Strings)
+  - [48.rotate-image.java](./Google/Arrays_Strings/48.rotate-image.java)
+  - [485.max-consecutive-ones.java](./Google/Arrays_Strings/485.max-consecutive-ones.java)
 - [ggl.png](./Google/ggl.png)
 - [Google.docx](./Google/Google.docx)
 - [top-google-questions.png](./Google/top-google-questions.png)
 
 # Microsoft
 
+- [Arrays/](./Microsoft/Arrays)
+  - [56.merge-intervals.java](./Microsoft/Arrays/56.merge-intervals.java)
 - [Microsoft.docx](./Microsoft/Microsoft.docx)
 - [msft.png](./Microsoft/msft.png)
 - [top-microsoft-questions.png](./Microsoft/top-microsoft-questions.png)
 
 # Unknown
 
+- [287.find-the-duplicate-number.java](./Unknown/287.find-the-duplicate-number.java)
 - [851.loud-and-rich.java](./Unknown/851.loud-and-rich.java)
 
 # POD
 
-- [1704.determine-if-string-halves-are-alike.java](./POD/1704.determine-if-string-halves-are-alike.java)
+- [December-2022/](./POD/December-2022)
+  - [1657.determine-if-two-strings-are-close.java](./POD/December-2022/1657.determine-if-two-strings-are-close.java)
+  - [1704.determine-if-string-halves-are-alike.java](./POD/December-2022/1704.determine-if-string-halves-are-alike.java)
+  - [451.sort-characters-by-frequency.java](./POD/December-2022/451.sort-characters-by-frequency.java)
