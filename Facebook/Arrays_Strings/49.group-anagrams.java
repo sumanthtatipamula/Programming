@@ -48,7 +48,23 @@ import java.util.*;
 // @lc code=start
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        return new ArrayList<List<String>>();
+        HashMap<String, ArrayList<String>> map = new HashMap<>();
+        for (int i = 0; i < strs.length; i++) {
+            int letters[] = new int[26];
+            for (int j = 0; j < strs[i].length(); j++) {
+                letters[strs[i].charAt(j) - 'a']++;
+            }
+            String key = Arrays.toString(letters);
+            if (!map.containsKey(key)) {
+                map.put(key, new ArrayList<String>());
+            }
+            map.get(key).add(strs[i]);
+        }
+        ArrayList<List<String>> result = new ArrayList<>();
+        for (var entry : map.entrySet()) {
+            result.add(entry.getValue());
+        }
+        return result;
     }
 }
 // @lc code=end
