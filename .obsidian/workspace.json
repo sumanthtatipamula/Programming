@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Microsoft/msft.png"
+                "file": "Graph/graph.png"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Microsoft/msft.png",
+                "file": "Graph/graph.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Microsoft/msft.png",
+                "file": "Graph/graph.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Microsoft/msft.png"
+                "file": "Graph/graph.png"
               }
             }
           }
@@ -136,6 +136,7 @@
   },
   "active": "af1e0ffd98e63806",
   "lastOpenFiles": [
+    "Microsoft/msft.png",
     "Readme.md",
     "Amazon/amz.png",
     "Amazon/top-amazon-questions-.png"
