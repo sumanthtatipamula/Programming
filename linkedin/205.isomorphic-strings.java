@@ -68,6 +68,7 @@ class Solution {
             }
             st.put(s.charAt(i), t.charAt(i));
             ts.put(t.charAt(i), s.charAt(i));
+            st.containsValue(ts);
         }
         return true;
     }
