@@ -49,7 +49,27 @@ import java.util.HashMap;
 // @lc code=start
 class Solution {
     public boolean isIsomorphic(String s, String t) {
-        HashMap<Character, Integer> map = new HashMap<>();
+        return usingHashMaps(s, t);
+    }
+
+    private boolean usingHashMaps(String s, String t) {
+        if(s.length() != t.length()) return false;
+        HashMap<Character, Character> st = new HashMap<>();
+        HashMap<Character, Character> ts = new HashMap<>();
+        for (int i = 0; i < s.length(); i++) {
+            if ((!st.containsKey(s.charAt(i)) && ts.containsKey(t.charAt(i)))) {
+                return false;
+            }
+            if (st.containsKey(s.charAt(i)) && ts.containsKey(t.charAt(i)) && s.charAt(i) != ts.get(t.charAt(i))) {
+                return false;
+            }
+            if (st.containsKey(s.charAt(i)) && t.charAt(i) != st.get(s.charAt(i))) {
+                return false;
+            }
+            st.put(s.charAt(i), t.charAt(i));
+            ts.put(t.charAt(i), s.charAt(i));
+        }
+        return true;
     }
 }
 // @lc code=end
