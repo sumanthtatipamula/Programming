@@ -31,7 +31,7 @@ class GfG
 {
     int maxLen(int arr[], int n)
     {
-        HashMap<Integer,Integer> map = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
         map.put(0,-1);
         int sum = 0;
         int maxIndex = 0;
