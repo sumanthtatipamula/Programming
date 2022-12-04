@@ -11,11 +11,9 @@
             "id": "af1e0ffd98e63806",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Readme.md",
-                "mode": "source",
-                "source": false
+                "file": "Microsoft/msft.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Microsoft/msft.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "Microsoft/msft.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "Microsoft/msft.png"
               }
             }
           }
@@ -138,6 +136,7 @@
   },
   "active": "af1e0ffd98e63806",
   "lastOpenFiles": [
+    "Readme.md",
     "Amazon/amz.png",
     "Amazon/top-amazon-questions-.png"
   ]
