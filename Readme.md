@@ -19,12 +19,14 @@
 
 # Google
 
-- [Arrays_Strings/](./Google/Arrays_Strings)
-  - [48.rotate-image.java](./Google/Arrays_Strings/48.rotate-image.java)
-  - [485.max-consecutive-ones.java](./Google/Arrays_Strings/485.max-consecutive-ones.java)
-- [ggl.png](./Google/ggl.png)
-- [Google.docx](./Google/Google.docx)
-- [top-google-questions.png](./Google/top-google-questions.png)
+- [Arrays_Strings/](.\Google\Arrays_Strings)
+  - [20.valid-parentheses.java](.\Google\Arrays_Strings\20.valid-parentheses.java)
+  - [48.rotate-image.java](.\Google\Arrays_Strings\48.rotate-image.java)
+  - [485.max-consecutive-ones.java](.\Google\Arrays_Strings\485.max-consecutive-ones.java)
+  - [66.plus-one.java](.\Google\Arrays_Strings\66.plus-one.java)
+- [ggl.png](.\Google\ggl.png)
+- [Google.docx](.\Google\Google.docx)
+- [top-google-questions.png](.\Google\top-google-questions.png)
 
 # Microsoft
 
@@ -41,7 +43,10 @@
 
 # POD
 
-- [December-2022/](./POD/December-2022)
-  - [1657.determine-if-two-strings-are-close.java](./POD/December-2022/1657.determine-if-two-strings-are-close.java)
-  - [1704.determine-if-string-halves-are-alike.java](./POD/December-2022/1704.determine-if-string-halves-are-alike.java)
-  - [451.sort-characters-by-frequency.java](./POD/December-2022/451.sort-characters-by-frequency.java)
+- [December-2022/](.\POD\December-2022)
+  - [2256-minimum-average-difference/](.\POD\December-2022\2256-minimum-average-difference)
+    - [2256-minimum-average-difference.java](.\POD\December-2022\2256-minimum-average-difference\2256-minimum-average-difference.java)
+    - [README.md](.\POD\December-2022\2256-minimum-average-difference\README.md)
+  - [1657.determine-if-two-strings-are-close.java](.\POD\December-2022\1657.determine-if-two-strings-are-close.java)
+  - [1704.determine-if-string-halves-are-alike.java](.\POD\December-2022\1704.determine-if-string-halves-are-alike.java)
+  - [451.sort-characters-by-frequency.java](.\POD\December-2022\451.sort-characters-by-frequency.java)

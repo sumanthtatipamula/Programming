@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "19beeb7f50234589",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9a966875d2fdd2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af1e0ffd98e63806",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "998d616aca8d1688",
+    "type": "split",
+    "children": [
+      {
+        "id": "8317c9281da981d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4efb60f6357262b1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4372333ea89ae185",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f984e13773ca60b8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ec6a6b144cd95e4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "681803e33ded3074",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20969ba99c3051d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fdbb3f99cca9eca8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0b2acfc50cfad06a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "07aa81c9c43c2bea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Readme.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "af1e0ffd98e63806",
+  "lastOpenFiles": [
+    "Amazon/amz.png",
+    "Amazon/top-amazon-questions-.png"
+  ]
+}
