@@ -11,9 +11,11 @@
             "id": "af1e0ffd98e63806",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Graph/graph.png"
+                "file": "Readme.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph/graph.png",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph/graph.png",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph/graph.png"
+                "file": "Readme.md"
               }
             }
           }
@@ -136,6 +138,7 @@
   },
   "active": "af1e0ffd98e63806",
   "lastOpenFiles": [
+    "Graph/graph.png",
     "Microsoft/msft.png",
     "Readme.md",
     "Amazon/amz.png",
