@@ -74,7 +74,7 @@ class Solution {
     int[] in = new int[numCourses];
     for (int i = 0; i < prerequisites.length; i++) {
       in[prerequisites[i][0]]++;
-      adj.get(prerequisites[i][0]).add(prerequisites[i][1]);
+      adj.get(prerequisites[i][1]).add(prerequisites[i][0]);
     }
     Queue<Integer> queue = new LinkedList<Integer>();
     for (int i = 0; i < in.length; i++) {
@@ -82,6 +82,20 @@ class Solution {
         queue.add(i);
       }
     }
+    while (!queue.isEmpty()) {
+      int vertex = queue.remove();
+      for (var v : adj.get(vertex)) {
+        if (--in[v] == 0) {
+          queue.add(v);
+        }
+      }
+    }
+    for (int i = 0; i < in.length; i++) {
+      if (in[i] != 0) {
+        return false;
+      }
+    }
+    return true;
   }
 }
 // @lc code=end
