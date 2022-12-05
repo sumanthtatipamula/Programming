@@ -24,6 +24,8 @@
   - [48.rotate-image.java](./Google/Arrays_Strings/48.rotate-image.java)
   - [485.max-consecutive-ones.java](./Google/Arrays_Strings/485.max-consecutive-ones.java)
   - [66.plus-one.java](./Google/Arrays_Strings/66.plus-one.java)
+- [GameTheory/](./Google/GameTheory)
+  - [486.predict-the-winner.java](./Google/GameTheory/486.predict-the-winner.java)
 - [ggl.png](./Google/ggl.png)
 - [Google.docx](./Google/Google.docx)
 - [top-google-questions.png](./Google/top-google-questions.png)
