@@ -61,6 +61,6 @@
 
 # GFG
 
-- [Largest subarray with 0 sum - GFG/](./GFG/Largest subarray with 0 sum - GFG)
+- [Largestsubarraywith0sum-GFG/](./GFG/Largest subarray with 0 sum - GFG)
   - [largest-subarray-with-0-sum.java](./GFG/Largest subarray with 0 sum - GFG/largest-subarray-with-0-sum.java)
   - [README.md](./GFG/Largest subarray with 0 sum - GFG/README.md)
