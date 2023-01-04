@@ -1,3 +1,5 @@
+package Amazon.LinkedList;
+
 /*
  * @lc app=leetcode id=2 lang=java
  *
