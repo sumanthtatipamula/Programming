@@ -27,14 +27,14 @@
 - [x] Add Two Numbers
 - [x] Merge Two Sorted Lists
 - [ ] Reverse Nodes in K Groups
-- [ ] Copy List With Random Pointer
+- [x] Copy List With Random Pointer
 - [x] Reverse Linked List
 - [ ] Merge K sorted Lists
 
 ## Trees And Graphs
 
 - [x] Validate Binary Search Tree
-- [ ] Symmetric Tree
+- [x] Symmetric Tree
 - [ ] Binary Tree Level Order Traversal
 - [ ] Binary Tree ZigZag Level Order Traversal
 - [ ] Binary Tree Maximum Path Sum
@@ -57,7 +57,7 @@
 ## Sorting
 
 - [ ] Median of Two Sorted Arrays
-- [ ] Merge Intervals
+- [x] Merge Intervals
 - [ ] Search in Rotated Sorted Array
 - [ ] Two Sum II - Input Arrays is sorted
 - [ ] kth Largest Element in an Array
