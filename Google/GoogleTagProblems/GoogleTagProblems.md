@@ -1,6 +1,6 @@
 | CODE | NAME                                                                                                                                                                                   |        | DIFFICULTY | STATUS  |
 | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---------- | ------- |
-| 444  | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction)                                                                                                       | 23.00% | Medium     | &check; |
+| 444  | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction)                                                                                                       | 23.00% | Medium     |
 | 247  | [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii)                                                                                                   | 47.90% | Medium     |
 | 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero)                                         | 61.80% | Medium     |
 | 1292 | [Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold)     | 49.60% | Medium     |
@@ -20,10 +20,10 @@
 | 34   | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)                                       | 36.60% | Medium     |
 | 399  | [Evaluate Division](https://leetcode.com/problems/evaluate-division)                                                                                                                   | 53.40% | Medium     |
 | 284  | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator)                                                                                                                     | 46.70% | Medium     |
-| 739  | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures)                                                                                                                 | 64.00% | Medium     |
+| 739  | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures)                                                                                                                 | 64.00% | Medium     | &check; |
 | 981  | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store)                                                                                                 | 53.50% | Medium     |
 | 752  | [Open the lock](https://leetcode.com/problems/open-the-lock/)                                                                                                                          | 55.06% | Medium     |
-| 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii)                                                               | 57.20% | Medium     |
+| 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii)                                                               | 57.20% | Medium     | &check; |
 | 1057 | [Campus Bikes](https://leetcode.com/problems/campus-bikes)                                                                                                                             | 57.60% | Medium     |
 | 688  | [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard)                                                                                     | 49.50% | Medium     |
 | 1197 | [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves)                                                                                                             | 36.40% | Medium     |
@@ -89,7 +89,7 @@
 | 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)                                                                           | 47.70% | Medium     |
 | 384  | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array)                                                                                                                     | 53.30% | Medium     |
 | 1145 | [Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game)                                                                                                   | 51.30% | Medium     |
-| 2    | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                                                                                                       | 34.40% | Medium     |
+| 2    | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                                                                                                       | 34.40% | Medium     | &check; |
 | 286  | [Walls and Gates](https://leetcode.com/problems/walls-and-gates)                                                                                                                       | 55.30% | Medium     |
 | 323  | [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph)                                           | 56.70% | Medium     |
 | 375  | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii)                                                                                       | 41.20% | Medium     |
@@ -103,8 +103,8 @@
 | 304  | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable)                                                                                           | 39.50% | Medium     |
 | 211  | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure)                                                                 | 38.90% | Medium     |
 | 253  | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)                                                                                                                     | 46.20% | Medium     |
-| 134  | [Gas Station](https://leetcode.com/problems/gas-station)                                                                                                                               | 40.30% | Medium     |
-| 200  | [Number of Islands](https://leetcode.com/problems/number-of-islands)                                                                                                                   | 47.60% | Medium     |
+| 134  | [Gas Station](https://leetcode.com/problems/gas-station)                                                                                                                               | 40.30% | Medium     | &check; |
+| 200  | [Number of Islands](https://leetcode.com/problems/number-of-islands)                                                                                                                   | 47.60% | Medium     | &check; |
 | 1229 | [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler)                                                                                                                   | 53.60% | Medium     |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)                                   | 50.10% | Medium     |
 | 1162 | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible)                                                                                             | 44.10% | Medium     |
@@ -186,7 +186,7 @@
 | 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams)                                                                                                                         | 57.90% | Medium     |
 | 735  | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)                                                                                                                 | 43.00% | Medium     |
 | 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)                                                                                             | 60.70% | Medium     |
-| 98   | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)                                                                                               | 28.10% | Medium     |
+| 98   | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)                                                                                               | 28.10% | Medium     | &check; |
 | 1368 | [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid)                                         | 55.50% | Hard       |
 | 335  | [Self Crossing](https://leetcode.com/problems/self-crossing)                                                                                                                           | 28.40% | Hard       |
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome)                                               | 58.60% | Hard       |
@@ -289,7 +289,7 @@
 | 914  | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards)                                                                                         | 34.70% | Easy       |
 | 706  | [Design HashMap](https://leetcode.com/problems/design-hashmap)                                                                                                                         | 62.00% | Easy       |
 | 359  | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter)                                                                                                               | 71.30% | Easy       |
-| 1    | [Two Sum](https://leetcode.com/problems/two-sum)                                                                                                                                       | 45.90% | Easy       |
+| 1    | [Two Sum](https://leetcode.com/problems/two-sum)                                                                                                                                       | 45.90% | Easy       | &check; |
 | 346  | [Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream)                                                                                       | 72.20% | Easy       |
 | 690  | [Employee Importance](https://leetcode.com/problems/employee-importance)                                                                                                               | 57.80% | Easy       |
 | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray)                                                                                                                     | 47.10% | Easy       |
