@@ -100,7 +100,7 @@
 | 162  | [Find Peak Element](https://leetcode.com/problems/find-peak-element)                                                                                                                   | 43.50% | Medium     |
 | 165  | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers)                                                                                                       | 29.50% | Medium     |
 | 168  | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title)                                                                                                     | 31.40% | Easy       |
-| 169  | [Majority Element](https://leetcode.com/problems/majority-element)                                                                                                                     | 59.30% | Easy       |
+| 169  | [Majority Element](https://leetcode.com/problems/majority-element)                                                                                                                     | 59.30% | Easy       | &check; |
 | 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)                                                                           | 47.70% | Medium     |
 | 171  | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number)                                                                                                   | 56.50% | Easy       |
 | 174  | [Dungeon Game](https://leetcode.com/problems/dungeon-game)                                                                                                                             | 32.70% | Hard       |
@@ -243,7 +243,7 @@
 | 593  | [Valid Square](https://leetcode.com/problems/valid-square)                                                                                                                             | 43.40% | Medium     |
 | 60   | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence)                                                                                                             | 38.80% | Hard       |
 | 609  | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system)                                                                                           | 60.50% | Medium     |
-| 62   | [Unique Paths](https://leetcode.com/problems/unique-paths)                                                                                                                             | 54.90% | Medium     |
+| 62   | [Unique Paths](https://leetcode.com/problems/unique-paths)                                                                                                                             | 54.90% | Medium     | &check; |
 | 621  | [Task Scheduler](https://leetcode.com/problems/task-scheduler)                                                                                                                         | 50.80% | Medium     |
 | 622  | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue)                                                                                                           | 44.60% | Medium     |
 | 630  | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii)                                                                                                               | 33.50% | Hard       |
