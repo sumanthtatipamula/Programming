@@ -77,19 +77,17 @@ package Google.GoogleTagProblems;
  * }
  */
 class Solution {
+  TreeNode next;
 
-  public boolean isSameTree(TreeNode p, TreeNode q) {
-    if (p == null && q == null) {
-      return true;
+  public void flatten(TreeNode root) {
+    if (root == null) {
+      return;
     }
-    if (p == null || q == null) {
-      return false;
-    }
-    return (
-      p.val == q.val &&
-      isSameTree(p.left, q.left) &&
-      isSameTree(p.right, q.right)
-    );
+    flatten(root.right);
+    flatten(root.left);
+    root.right = next;
+    root.left = null;
+    next = root;
   }
 }
 // @lc code=end
