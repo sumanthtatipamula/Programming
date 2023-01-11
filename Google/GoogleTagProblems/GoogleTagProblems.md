@@ -72,9 +72,9 @@
 | 1352 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers)                                                                                           | 42.50% | Medium     |
 | 1368 | [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid)                                         | 55.50% | Hard       |
 | 137  | [Single Number II](https://leetcode.com/problems/single-number-ii)                                                                                                                     | 53.00% | Medium     |
-| 1376 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees)                                                                               | 56.00% | Medium     |
+| 1376 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees)                                                                               | 56.00% | Medium     | &check; |
 | 1377 | [Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds)                                                                                           | 34.10% | Hard       |
-| 139  | [Word Break](https://leetcode.com/problems/word-break)                                                                                                                                 | 40.90% | Medium     |
+| 139  | [Word Break](https://leetcode.com/problems/word-break)                                                                                                                                 | 40.90% | Medium     | &check; |
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)                                                                                                           | 35.70% | Easy       |
 | 1406 | [Stone Game III](https://leetcode.com/problems/stone-game-iii)                                                                                                                         | 56.70% | Hard       |
 | 1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards)                                                                     | 44.70% | Medium     |
@@ -96,7 +96,7 @@
 | 158  | [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times)                                           | 35.10% | Hard       |
 | 159  | [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)                                         | 49.70% | Medium     |
 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words)                                                                                         | 43.90% | Easy       |
-| 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)                                                                                     | 41.70% | Easy       |
+| 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)                                                                                     | 41.70% | Easy       | &check; |
 | 162  | [Find Peak Element](https://leetcode.com/problems/find-peak-element)                                                                                                                   | 43.50% | Medium     |
 | 165  | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers)                                                                                                       | 29.50% | Medium     |
 | 168  | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title)                                                                                                     | 31.40% | Easy       |
@@ -133,7 +133,7 @@
 | 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)                                                                                                                 | 65.90% | Easy       |
 | 229  | [Majority Element II](https://leetcode.com/problems/majority-element-ii)                                                                                                               | 38.00% | Medium     |
 | 23   | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)                                                                                                             | 41.20% | Hard       |
-| 230  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)                                                                                           | 61.30% | Medium     |
+| 230  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)                                                                                           | 61.30% | Medium     | &check; |
 | 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)                                                                                                         | 39.80% | Easy       |
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)                                                                       | 47.00% | Medium     |
 | 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)                                                                                             | 60.70% | Medium     |
@@ -158,7 +158,7 @@
 | 295  | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)                                                                                             | 45.40% | Hard       |
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)                                                                           | 48.50% | Hard       |
 | 299  | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows)                                                                                                                         | 43.80% | Medium     | &check; |
-| 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)                                                         | 30.80% | Medium     |
+| 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)                                                         | 30.80% | Medium     | &check; |
 | 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)                                                                                         | 42.90% | Medium     |
 | 301  | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)                                                                                                 | 43.90% | Hard       |
 | 303  | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)                                                                                                 | 46.00% | Easy       |
@@ -238,7 +238,7 @@
 | 56   | [Merge Intervals](https://leetcode.com/problems/merge-intervals)                                                                                                                       | 39.80% | Medium     |
 | 560  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)                                                                                                           | 43.80% | Medium     |
 | 562  | [Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix)                                                                   | 46.00% | Medium     |
-| 57   | [Insert Interval](https://leetcode.com/problems/insert-interval)                                                                                                                       | 34.40% | Medium     |
+| 57   | [Insert Interval](https://leetcode.com/problems/insert-interval)                                                                                                                       | 34.40% | Medium     | &check; |
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word)                                                                                                               | 33.30% | Easy       |
 | 593  | [Valid Square](https://leetcode.com/problems/valid-square)                                                                                                                             | 43.40% | Medium     |
 | 60   | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence)                                                                                                             | 38.80% | Hard       |
