@@ -5,7 +5,7 @@
 | 1007 | [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row)                                                                         | 50.90% | Medium     |
 | 101  | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree)                                                                                                                         | 47.40% | Easy       |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses)                                                                                             | 78.40% | Easy       |
-| 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor)                                                             | 66.60% | Medium     |
+| 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor)                                                             | 66.60% | Medium     | &check; |
 | 1027 | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence)                                                                                         | 50.80% | Medium     |
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling)                                                                                                               | 56.70% | Medium     |
 | 103  | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)                                                                     | 49.10% | Medium     |
