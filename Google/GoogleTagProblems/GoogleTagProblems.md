@@ -28,7 +28,7 @@
 | 1125 | [Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team)                                                                                                     | 46.70% | Hard       |
 | 113  | [Path Sum II](https://leetcode.com/problems/path-sum-ii)                                                                                                                               | 47.80% | Medium     |
 | 1138 | [Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path)                                                                                                               | 49.50% | Medium     |
-| 114  | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)                                                                                 | 50.40% | Medium     |
+| 114  | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)                                                                                 | 50.40% | Medium     | &check; |
 | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii)                                                                                                                           | 64.70% | Medium     |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence)                                                                                                 | 58.50% | Medium     |
 | 1145 | [Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game)                                                                                                   | 51.30% | Medium     |
@@ -42,7 +42,7 @@
 | 118  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)                                                                                                                    | 53.50% | Easy       |
 | 1197 | [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves)                                                                                                             | 36.40% | Medium     |
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii)                                                               | 57.20% | Medium     | &check; |
-| 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)                                                                                       | 51.00% | Easy       |
+| 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)                                                                                       | 51.00% | Easy       | &check; |
 | 1218 | [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference)                                                 | 45.70% | Medium     |
 | 1223 | [Dice Roll Simulation](https://leetcode.com/problems/dice-roll-simulation)                                                                                                             | 46.70% | Medium     |
 | 1229 | [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler)                                                                                                                   | 53.60% | Medium     |
@@ -107,7 +107,7 @@
 | 175  | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables)                                                                                                                 | 62.20% | Easy       |
 | 177  | [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary)                                                                                                                 | 32.20% | Medium     |
 | 188  | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)                                                                                 | 28.80% | Hard       |
-| 198  | [House Robber](https://leetcode.com/problems/house-robber)                                                                                                                             | 42.50% | Easy       |
+| 198  | [House Robber](https://leetcode.com/problems/house-robber)                                                                                                                             | 42.50% | Easy       | &check; |
 | 2    | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                                                                                                       | 34.40% | Medium     | &check; |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                                                                                                                   | 39.30% | Easy       |
 | 200  | [Number of Islands](https://leetcode.com/problems/number-of-islands)                                                                                                                   | 47.60% | Medium     | &check; |
@@ -225,7 +225,7 @@
 | 485  | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)                                                                                                             | 53.80% | Easy       |
 | 489  | [Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner)                                                                                                                 | 71.30% | Hard       |
 | 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams)                                                                                                                         | 57.90% | Medium     |
-| 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)                                                                                           | 29.80% | Medium     |
+| 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)                                                                                           | 29.80% | Medium     | &check; |
 | 50   | [Pow(x, n)](https://leetcode.com/problems/powx-n)                                                                                                                                      | 30.60% | Medium     |
 | 518  | [Coin Change 2](https://leetcode.com/problems/coin-change-2)                                                                                                                           | 50.80% | Medium     |
 | 527  | [Word Abbreviation](https://leetcode.com/problems/word-abbreviation)                                                                                                                   | 55.30% | Hard       |
