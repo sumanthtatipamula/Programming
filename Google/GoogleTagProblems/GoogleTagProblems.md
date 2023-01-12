@@ -116,7 +116,7 @@
 | 205  | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)                                                                                                                 | 40.10% | Easy       |
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)                                                                                                               | 63.70% | Easy       |
 | 208  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)                                                                                               | 50.60% | Medium     |
-| 209  | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)                                                                                                   | 38.70% | Medium     |
+| 209  | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)                                                                                                   | 38.70% | Medium     | &check; |
 | 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)                                                                                                         | 54.50% | Easy       |
 | 210  | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii)                                                                                                                 | 41.50% | Medium     |
 | 211  | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure)                                                                 | 38.90% | Medium     |
@@ -313,7 +313,7 @@
 | 9    | [Palindrome Number](https://leetcode.com/problems/palindrome-number)                                                                                                                   | 49.00% | Easy       |
 | 900  | [RLE Iterator](https://leetcode.com/problems/rle-iterator)                                                                                                                             | 54.50% | Medium     |
 | 901  | [Online Stock Span](https://leetcode.com/problems/online-stock-span)                                                                                                                   | 60.70% | Medium     |
-| 904  | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets)                                                                                                                 | 42.70% | Medium     |
+| 904  | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets)                                                                                                                 | 42.70% | Medium     | &check; |
 | 907  | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums)                                                                                                     | 33.30% | Medium     |
 | 91   | [Decode Ways](https://leetcode.com/problems/decode-ways)                                                                                                                               | 25.30% | Medium     |
 | 911  | [Online Election](https://leetcode.com/problems/online-election)                                                                                                                       | 50.90% | Medium     |
