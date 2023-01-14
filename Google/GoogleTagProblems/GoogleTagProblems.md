@@ -35,7 +35,7 @@
 | 1146 | [Snapshot Array](https://leetcode.com/problems/snapshot-array)                                                                                                                         | 36.90% | Medium     |
 | 1153 | [String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string)                                                                           | 35.90% | Hard       |
 | 1155 | [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum)                                                                             | 48.00% | Medium     |
-| 116  | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)                                                               | 46.60% | Medium     |
+| 116  | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)                                                               | 46.60% | Medium     | &check; |
 | 1162 | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible)                                                                                             | 44.10% | Medium     |
 | 117  | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)                                                         | 40.00% | Medium     |
 | 1170 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character)                                         | 59.30% | Easy       |
