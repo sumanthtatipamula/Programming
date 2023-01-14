@@ -30,7 +30,7 @@
 | 1138 | [Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path)                                                                                                               | 49.50% | Medium     |
 | 114  | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)                                                                                 | 50.40% | Medium     | &check; |
 | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii)                                                                                                                           | 64.70% | Medium     |
-| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence)                                                                                                 | 58.50% | Medium     |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence)                                                                                                 | 58.50% | Medium     | &check; |
 | 1145 | [Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game)                                                                                                   | 51.30% | Medium     |
 | 1146 | [Snapshot Array](https://leetcode.com/problems/snapshot-array)                                                                                                                         | 36.90% | Medium     |
 | 1153 | [String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string)                                                                           | 35.90% | Hard       |
