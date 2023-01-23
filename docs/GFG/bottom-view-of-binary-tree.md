@@ -1,5 +1,14 @@
+---
+layout: default
+title: Bottom View of Binary Tree
+parent: GFG
+nav_order: 3
+---
+
 # Bottom View of Binary Tree
+
 ## Medium
+
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a binary tree, print the bottom view from left to right.<br>
 A node is included in bottom view if it can be seen when we look at the tree from bottom.</span></p>
 
