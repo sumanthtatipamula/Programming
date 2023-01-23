@@ -2,7 +2,7 @@
 layout: default
 title: Bottom View of Binary Tree
 parent: GFG
-nav_order: 3
+nav_order: 2
 ---
 
 # Bottom View of Binary Tree
