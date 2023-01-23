@@ -1,5 +1,14 @@
+---
+layout: default
+title: Largest subarray with 0 sum
+parent: GForG
+nav_order: 2
+---
+
 # Largest subarray with 0 sum
+
 ## Easy
+
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array having both positive and negative integers. The task is to compute the&nbsp;length of the largest subarray with sum 0.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
