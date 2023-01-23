@@ -2,6 +2,7 @@
 layout: default
 title: Largest Subarray with 0 Sum
 nav_order: 1
+parent: GFG
 ---
 
 # Largest subarray with 0 sum
