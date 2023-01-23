@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: page
 title: Largest subarray with 0 sum
 parent: GForG
 nav_order: 3
+permalink: /sub
 ---
 
 # Largest subarray with 0 sum
