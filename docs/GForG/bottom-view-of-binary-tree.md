@@ -2,7 +2,7 @@
 layout: default
 title: Bottom View of Binary Tree
 parent: GForG
-nav_order: 2
+nav_order: 3
 ---
 
 # Bottom View of Binary Tree
