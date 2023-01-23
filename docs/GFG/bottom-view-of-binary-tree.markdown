@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bottom View of a Binary Tree
+title: GFG
 nav_order: 3
 has_children: true
 permalink: /docs/GForG

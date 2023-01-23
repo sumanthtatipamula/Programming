@@ -1,9 +1,7 @@
 ---
 layout: default
 title: Largest Subarray with 0 Sum
-nav_order: 3
-has_children: true
-permalink: /docs/GForG
+nav_order: 1
 ---
 
 # Largest subarray with 0 sum
