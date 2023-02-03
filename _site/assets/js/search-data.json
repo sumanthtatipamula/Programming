@@ -1,0 +1,38 @@
+{"0": {
+    "doc": "Largest subarray with 0 sum",
+    "title": "Largest subarray with 0 sum",
+    "content": " ",
+    "url": "/sub",
+    "relUrl": "/sub"
+  },"1": {
+    "doc": "Largest subarray with 0 sum",
+    "title": "Easy",
+    "content": "Given an array having both positive and negative integers. The task is to compute the&nbsp;length of the largest subarray with sum 0. Example 1: . Input: N = 8 A[] = {15,-2,2,-8,1,7,10,23} Output: 5 Explanation: The largest subarray with sum 0 will be&nbsp;-2 2 -8 1 7. Your Task: You just have to complete the function maxLen() which&nbsp;takes two arguments an array A and n, where n is the size of the array A and&nbsp;returns&nbsp;the length of the largest&nbsp;subarray with 0 sum. Expected Time Complexity:&nbsp;O(N). Expected Auxiliary Space:&nbsp;O(N). Constraints: 1 &lt;= N &lt;= 105 -1000 &lt;= A[i] &lt;= 1000, for each valid i . ",
+    "url": "/sub#easy",
+    "relUrl": "/sub#easy"
+  },"2": {
+    "doc": "About",
+    "title": "About",
+    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "url": "/about/",
+    "relUrl": "/about/"
+  },"3": {
+    "doc": "Bottom View of a Binary Tree",
+    "title": "Bottom View of Binary Tree",
+    "content": " ",
+    "url": "/docs/GForG#bottom-view-of-binary-tree",
+    "relUrl": "/docs/GForG#bottom-view-of-binary-tree"
+  },"4": {
+    "doc": "Bottom View of a Binary Tree",
+    "title": "Medium",
+    "content": "Given a binary tree, print the bottom view from left to right. A node is included in bottom view if it can be seen when we look at the tree from bottom. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp;&nbsp; \\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 22 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp; \\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp; \\&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10&nbsp;&nbsp;&nbsp; 14 . For the above tree, the bottom view is 5 10 3 14 25. If there are multiple bottom-most nodes for a horizontal distance from root, then print the later one in level traversal. For example, in the below diagram, 3 and 4 are both the bottommost nodes at horizontal distance 0, we need to print 4. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp;&nbsp; \\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 22 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp; \\&nbsp;&nbsp; &nbsp; /&nbsp;&nbsp; \\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 4&nbsp;&nbsp;&nbsp;&nbsp; 25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; /&nbsp; &nbsp; \\&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 &nbsp;&nbsp; &nbsp;&nbsp; 14 . For the above tree the output should be 5 10 4 14 25. Note:&nbsp;The Input/Output format and Example given are used for the system's internal purpose, and should be used by a user for Expected Output only. As it is a function problem, hence a user should not read any input from the stdin/console. The task is to complete the function specified, and not to write the full code. &nbsp; . Example 1: . Input: 1 &nbsp; / \\ &nbsp; 3 2 Output: 3 1 2 Explanation: First case represents a tree with 3 nodes and 2 edges where root is 1, left child of 1 is 3 and right child of 1 is 2. Thus nodes of the binary tree will be printed as such 3 1 2. Example 2: . Input: 10 &nbsp; / \\ &nbsp; 20 30 &nbsp; / \\ &nbsp; 40 60 Output: 40 20 60 30 . Your Task: This is a functional problem, you don't need to care about input, just complete the function bottomView() which takes the root node of the tree as input and returns an array&nbsp;containing the bottom view of the given tree. Expected Time Complexity:&nbsp;O(N*logN). Expected Auxiliary Space:&nbsp;O(N). Constraints: 1 &lt;= Number of nodes &lt;= 105 1 &lt;= Data of a node &lt;= 105 . ",
+    "url": "/docs/GForG#medium",
+    "relUrl": "/docs/GForG#medium"
+  },"5": {
+    "doc": "Bottom View of a Binary Tree",
+    "title": "Bottom View of a Binary Tree",
+    "content": " ",
+    "url": "/docs/GForG",
+    "relUrl": "/docs/GForG"
+  }
+}
