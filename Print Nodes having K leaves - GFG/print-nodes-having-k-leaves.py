@@ -100,6 +100,8 @@ class Solution:
                 result.append(root.data)
             return left_count + right_count
         traverse(root)
+       
+
         return result if(result) else [-1]
 
 #{ 
