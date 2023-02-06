@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "572b3dacda516f14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph/Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amazon/TopicWiseQuestions.md",
+                "file": "Graph/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Amazon/TopicWiseQuestions.md",
+                "file": "Graph/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Amazon/TopicWiseQuestions.md"
+                "file": "Graph/Notes.md"
               }
             }
           }
@@ -146,8 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af1e0ffd98e63806",
+  "active": "572b3dacda516f14",
   "lastOpenFiles": [
+    "Amazon/TopicWiseQuestions.md",
     "GFG/Largest-subarray-with-0-sum-GFG/README.md",
     "Readme.md",
     "Graph/graph.png",
