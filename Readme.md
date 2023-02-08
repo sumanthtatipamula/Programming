@@ -1,70 +1,21 @@
-# Amazon[1]
+# My Plan for Improving in Programming
 
-- [Arrays_Strings/](./Amazon/Arrays_Strings)
-  - [1.two-sum.java](./Amazon/Arrays_Strings/1.two-sum.java)
-- [Amazon.docx](./Amazon/Amazon.docx)
-- [amz.png](./Amazon/amz.png)
-- [top-amazon-questions-.png](./Amazon/top-amazon-questions-.png)
-
-# Apple[1]
-
-- [Graphs/](./Apple/Graphs)
-  - [207.course-schedule.java](./Apple/Graphs/207.course-schedule.java)
-- [appl.png](./Apple/appl.png)
-
-# Facebook[1]
-
-- [128.longest-consecutive-sequence.java](./Facebook/128.longest-consecutive-sequence.java)
-- [FB.docx](./Facebook/FB.docx)
-- [fbk.png](./Facebook/fbk.png)
-- [top-facebook-questions.png](./Facebook/top-facebook-questions.png)
-
-# Google[5]
-
-- [Arrays_Strings/](./Google/Arrays_Strings)
-  - [20.valid-parentheses.java](./Google/Arrays_Strings/20.valid-parentheses.java)
-  - [48.rotate-image.java](./Google/Arrays_Strings/48.rotate-image.java)
-  - [485.max-consecutive-ones.java](./Google/Arrays_Strings/485.max-consecutive-ones.java)
-  - [66.plus-one.java](./Google/Arrays_Strings/66.plus-one.java)
-- [GameTheory/](./Google/GameTheory)
-  - [486.predict-the-winner.java](./Google/GameTheory/486.predict-the-winner.java)
-- [ggl.png](./Google/ggl.png)
-- [Google.docx](./Google/Google.docx)
-- [top-google-questions.png](./Google/top-google-questions.png)
-
-# Microsoft[1]
-
-- [Arrays/](./Microsoft/Arrays)
-  - [56.merge-intervals.java](./Microsoft/Arrays/56.merge-intervals.java)
-- [Microsoft.docx](./Microsoft/Microsoft.docx)
-- [msft.png](./Microsoft/msft.png)
-- [top-microsoft-questions.png](./Microsoft/top-microsoft-questions.png)
-
-# linkedin[1]
-
-- [205.isomorphic-strings.java](./linkedin/205.isomorphic-strings.java)
-
-# Unknown[3]
-
-- [201.bitwise-and-of-numbers-range.java](./Unknown/201.bitwise-and-of-numbers-range.java)
-- [287.find-the-duplicate-number.java](./Unknown/287.find-the-duplicate-number.java)
-- [851.loud-and-rich.java](./Unknown/851.loud-and-rich.java)
-
-# POD[7]
-
-- [December-2022/](./POD/December-2022)
-  - [2256-minimum-average-difference/](./POD/December-2022/2256-minimum-average-difference)
-    - [2256-minimum-average-difference.java](./POD/December-2022/2256-minimum-average-difference/2256-minimum-average-difference.java)
-    - [README.md](./POD/December-2022/2256-minimum-average-difference/README.md)
-  - [1657.determine-if-two-strings-are-close.java](./POD/December-2022/1657.determine-if-two-strings-are-close.java)
-  - [1704.determine-if-string-halves-are-alike.java](./POD/December-2022/1704.determine-if-string-halves-are-alike.java)
-  - [328.odd-even-linked-list.java](./POD/December-2022/328.odd-even-linked-list.java)
-  - [451.sort-characters-by-frequency.java](./POD/December-2022/451.sort-characters-by-frequency.java)
-  - [938.range-sum-of-bst.java](./POD/December-2022/938.range-sum-of-bst.java)
-  - [876.middle-of-the-linked-list.java](./POD/December-2022/876.middle-of-the-linked-list.java)
-
-# GFG[1]
-
-- [Largest-subarray-with-0-sum-GFG/](./GFG/Largest-subarray-with-0-sum-GFG)
-  - [largest-subarray-with-0-sum.java](./GFG/Largest-subarray-with-0-sum-GFG/largest-subarray-with-0-sum.java)
-  - [README.md](./GFG/Largest-subarray-with-0-sum-GFG/README.md)
+1. I divide the entire year into 3 cycles(4 months each)
+2. Each cycle comprises of 8 parts(15 days or fortnight)
+3. For each part I select one topic in the order below
+   1. Trees
+   2. Graphs
+   3. DP
+   4. Back Tracking
+   5. Arrays
+   6. Strings
+   7. Game Theory
+   8. Linked List
+4. During current topic, the next topic algorithms will be learned
+   1. for example, during the 15 days time for Tree topic, I will be spending some time on graph algorithms, this way it saves time when I come to graph topic
+5. I will currently restrict myself to 2 platforms(GFG, Leetcode), other platforms are pretty much good. However, I personally believe its better to strengthen my fundamentals in fewer platforms before exploring others.
+6. Rules on Problem solving
+   1. Min : 3, Max: 10 problems per day
+   2. Problem of the day in either platform will not be counted, even though the tag matches with the current topic
+   3. Each New Algorithm learnt should be in gh-pages in my own understanding (Yet to start)
+7. I will follow this approach for atleast a year and see what are merits and drawbacks it brought based on that I'll improvise on this technique
