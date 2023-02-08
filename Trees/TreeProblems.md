@@ -21,7 +21,7 @@
 - [x] [Types of Linked List](https://www.geeksforgeeks.org/types-of-linked-list/)
 - [x] [Predecessor and Successor in BT](https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/)
 
-### Day-1
+### Day - 1
 
 ---
 
@@ -31,7 +31,7 @@
 - [x] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
 - [x] [LCA of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)
 
-### Day 2
+### Day - 2
 
 ---
 
@@ -41,7 +41,7 @@
 - [x] [construct tree from inorder and preorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [x] [Sum Tree](https://practice.geeksforgeeks.org/problems/sum-tree/1) [&check;]
 
-### Day -3
+### Day - 3
 
 ---
 
@@ -51,7 +51,7 @@
 - [x] [Diagonal Traversal of Binary Tree](https://practice.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1)
 - [x] [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/)
 
-### Day-4
+### Day - 4
 
 ---
 
@@ -100,6 +100,16 @@
 - [x] [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)
 - [x] [Reverse Odd Levels of BT](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)
 - [x] [Burning of a Tree](https://practice.geeksforgeeks.org/problems/burning-tree/1)
+
+### Day - 9
+
+---
+
+- [x] [Recover a Tree from Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/) [&check;]
+- [x] [All Nodes at Distance k in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/) [&check;]
+- [x] [Insuficient Nodes in root to leaf paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/description/) [&check;]
+- [x] [Trim a BST](https://leetcode.com/problems/trim-a-binary-search-tree/description/)
+- [x] [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/description/)
 
 ### Miscellaneous
 
