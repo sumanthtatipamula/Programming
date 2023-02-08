@@ -118,3 +118,5 @@
 - [x] [Children Sum Parent](https://practice.geeksforgeeks.org/problems/children-sum-parent/1)
 - [x] [Find Mode in a BST](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/) [&check;]
 - [x] [Amount of Time for Binary Tree To Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) [&check;]
+- [x] [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/description/)
+- [ ]
