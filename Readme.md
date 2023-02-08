@@ -19,3 +19,21 @@
    2. Problem of the day in either platform will not be counted, even though the tag matches with the current topic
    3. Each New Algorithm learnt should be in gh-pages in my own understanding (Yet to start)
 7. I will follow this approach for atleast a year and see what are merits and drawbacks it brought based on that I'll improvise on this technique
+
+```mermaid
+%%{
+  init:
+  {
+    'theme': 'base',
+    'themeVariables':
+      {
+        'primaryTextColor': '#fff',
+        'pie1': '#1E3',
+        'pie2': '#FFFF00'
+      }
+  }
+}%%
+pie showData
+    title Problems Solved Per Tag
+    "Tree" : 49
+```
