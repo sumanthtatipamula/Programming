@@ -36,10 +36,10 @@
 ---
 
 - [x] [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)
-- [x] [min operations to sort a binary tree by level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/) [&check;]
+- [x] [min operations to sort a binary tree by level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/) &check;
 - [x] [check if subtree](https://practice.geeksforgeeks.org/problems/check-if-subtree/1)
 - [x] [construct tree from inorder and preorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-- [x] [Sum Tree](https://practice.geeksforgeeks.org/problems/sum-tree/1) [&check;]
+- [x] [Sum Tree](https://practice.geeksforgeeks.org/problems/sum-tree/1) &check;
 
 ### Day - 3
 
@@ -68,7 +68,7 @@
 - [x] [Print Nodes having K Leaves](https://practice.geeksforgeeks.org/problems/print-nodes-having-k-leaves/1)
 - [x] [Convert Sorted Array to BST](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
 - [x] [Populating Next right pointers in each node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)
-- [x] [Construct BST from Preorder traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/) [&check;]
+- [x] [Construct BST from Preorder traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/) &check;
 - [x] [Convert a BT to DLL](https://www.codingninjas.com/codestudio/problem-details/convert-a-given-binary-tree-to-doubly-linked-list_893106)
 
 ### Day - 6
@@ -96,7 +96,7 @@
 ---
 
 - [x] [Floor in BST](https://practice.geeksforgeeks.org/problems/floor-in-bst/1)
-- [x] [K Sum Paths](https://practice.geeksforgeeks.org/problems/k-sum-paths/1) [&check;]
+- [x] [K Sum Paths](https://practice.geeksforgeeks.org/problems/k-sum-paths/1) &check;
 - [x] [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)
 - [x] [Reverse Odd Levels of BT](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)
 - [x] [Burning of a Tree](https://practice.geeksforgeeks.org/problems/burning-tree/1)
@@ -105,11 +105,21 @@
 
 ---
 
-- [x] [Recover a Tree from Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/) [&check;]
-- [x] [All Nodes at Distance k in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/) [&check;]
-- [x] [Insuficient Nodes in root to leaf paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/description/) [&check;]
+- [x] [Recover a Tree from Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/) &check;
+- [x] [All Nodes at Distance k in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/) &check;
+- [x] [Insuficient Nodes in root to leaf paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/description/) &check;
 - [x] [Trim a BST](https://leetcode.com/problems/trim-a-binary-search-tree/description/)
 - [x] [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/description/)
+
+### Day - 10
+
+---
+
+- [x] [Find Elements in a Contaminated Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/description/) &check; &check;
+- [x] [All Elements in Two BST](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)
+- [x] [Binary Tree Right View](https://leetcode.com/problems/binary-tree-right-side-view/description/)
+- [x] [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/) &check;
+- [x] [Add One Row To Tree](https://leetcode.com/problems/add-one-row-to-tree/)
 
 ### Miscellaneous
 
@@ -119,4 +129,6 @@
 - [x] [Find Mode in a BST](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/) [&check;]
 - [x] [Amount of Time for Binary Tree To Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) [&check;]
 - [x] [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/description/)
-- [ ]
+- [x] [Bottom View of Binary Tree](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
+- [x] [Top View of Binary Tree](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1)
+- [x] [Left View of Binary Tree](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1)
