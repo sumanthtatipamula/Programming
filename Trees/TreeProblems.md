@@ -132,3 +132,5 @@
 - [x] [Bottom View of Binary Tree](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
 - [x] [Top View of Binary Tree](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1)
 - [x] [Left View of Binary Tree](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1)
+- [x] [Kth Largest Element in BST](https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1)
+- [x] [Root to Leaf Paths](https://practice.geeksforgeeks.org/problems/root-to-leaf-paths/1)
