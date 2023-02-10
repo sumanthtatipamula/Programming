@@ -121,6 +121,12 @@
 - [x] [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/) &check;
 - [x] [Add One Row To Tree](https://leetcode.com/problems/add-one-row-to-tree/)
 
+### Day - 11
+
+- [x] [Remove Half Nodes](https://practice.geeksforgeeks.org/problems/remove-half-nodes/1)
+- [x] [Two Mirror Trees](https://practice.geeksforgeeks.org/problems/two-mirror-trees/1)
+- [x] [Full Binary Tree](https://practice.geeksforgeeks.org/problems/full-binary-tree/1)
+
 ### Miscellaneous
 
 ---
