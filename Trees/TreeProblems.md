@@ -25,21 +25,21 @@
 
 ---
 
-- [x] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/) <cite>[Google, Amazon]</cite>
-- [x] [lowest common ancestor of a binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) <cite>[Facebook, Amazon, Microsoft]</cite>
-- [x] [Diameter of a binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) <cite>[Facebook, Amazon]</cite>
-- [x] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) <cite>[Microsoft, Amazon]</cite>
-- [x] [LCA of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) <cite>[Amazon]</cite>
+- [x] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/) <cite>Google, Amazon</cite>
+- [x] [lowest common ancestor of a binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) <cite>Facebook, Amazon, Microsoft</cite>
+- [x] [Diameter of a binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) <cite>Facebook, Amazon</cite>
+- [x] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) <cite>Microsoft, Amazon</cite>
+- [x] [LCA of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) <cite>Amazon</cite>
 
 ### Day - 2
 
 ---
 
-- [x] [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/) <cite>[Google, Amazon]</cite>
-- [x] [min operations to sort a binary tree by level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/) <cite>[Amazon]</cite> &check;
-- [x] [check if subtree](https://practice.geeksforgeeks.org/problems/check-if-subtree/1) <cite>[Microsoft, Amazon]</cite>
-- [x] [construct tree from inorder and preorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) <cite>[Microsoft, Amazon, Google, Apple]</cite>
-- [x] [Sum Tree](https://practice.geeksforgeeks.org/problems/sum-tree/1) <cite>[Microsoft, Amazon]</cite> &check;
+- [x] [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/) <cite>Google, Amazon</cite>
+- [x] [min operations to sort a binary tree by level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/) <cite>Amazon</cite> &check;
+- [x] [check if subtree](https://practice.geeksforgeeks.org/problems/check-if-subtree/1) <cite>Microsoft, Amazon</cite>
+- [x] [construct tree from inorder and preorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) <cite>Microsoft, Amazon, Google, Apple</cite>
+- [x] [Sum Tree](https://practice.geeksforgeeks.org/problems/sum-tree/1) <cite>Microsoft, Amazon</cite> &check;
 
 ### Day - 3
 
@@ -55,7 +55,7 @@
 
 ---
 
-- [x] [Boundary Traversal of BT](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) [&check;]
+- [x] [Boundary Traversal of BT](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) &check;
 - [x] [Clone a Binary Tree](https://practice.geeksforgeeks.org/problems/clone-a-binary-tree/1)
 - [x] [Connect Nodes at Same Level](https://practice.geeksforgeeks.org/problems/connect-nodes-at-same-level/1)
 - [x] [Leftmost and RightMost nodes of Binary Tree](https://practice.geeksforgeeks.org/problems/leftmost-and-rightmost-nodes-of-binary-tree/1)
@@ -127,26 +127,35 @@
 - [x] [Two Mirror Trees](https://practice.geeksforgeeks.org/problems/two-mirror-trees/1)
 - [x] [Full Binary Tree](https://practice.geeksforgeeks.org/problems/full-binary-tree/1)
 - [x] [Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/description/)
-- [x] [Even odd Tree](https://leetcode.com/problems/even-odd-tree/) <cite>[Amazon]</cite>
+- [x] [Even odd Tree](https://leetcode.com/problems/even-odd-tree/) <cite>Amazon</cite>
 
 ### Day - 12
 
-- [x] [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) <cite>[Google, Amazon]</cite> **P**
-- [x] [Path Sum III](https://leetcode.com/problems/path-sum-iii/) <cite>[Microsoft, Amazon]</cite>
-- [x] [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) <cite>[Google, Amazon]</cite>
+- [x] **P** [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) <cite>Google, Amazon</cite>
+- [x] [Path Sum III](https://leetcode.com/problems/path-sum-iii/) <cite>Microsoft, Amazon</cite>
+- [x] [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) <cite>Google, Amazon</cite>
 - [x] [Path Sum - II](https://leetcode.com/problems/path-sum-ii/description) <cite>Facebook, Amazon, Microsoft, Google</cite>
 - [x] [Binary Tree Max Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) <cite>Facebook, Amazon, Microsoft, Google</cite>
+
+### Day - 13
+
+- [x] [Largest BST SubTree](https://leetcode.com/problems/largest-bst-subtree/description/) <cite>Facebook, Amazon, Microsoft</cite>
+- [x] [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) <cite>Facebook, Amazon</cite>
+- [x] [Distribute coins in BT](https://leetcode.com/problems/distribute-coins-in-binary-tree/) <cite>Facebook, Amazon, Microsoft, Google</cite> &check;
+- [x] <b>P</b> [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/description/)<cite>Microsoft, Google</cite>
+- [x] [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/description/) <cite>Microsoft, Google, Amazon</cite>
 
 ### Miscellaneous
 
 ---
 
 - [x] [Children Sum Parent](https://practice.geeksforgeeks.org/problems/children-sum-parent/1)
-- [x] [Find Mode in a BST](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/) [&check;]
-- [x] [Amount of Time for Binary Tree To Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) [&check;]
+- [x] [Find Mode in a BST](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/) &check;
+- [x] [Amount of Time for Binary Tree To Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) &check;
 - [x] [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/description/)
 - [x] [Bottom View of Binary Tree](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
 - [x] [Top View of Binary Tree](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1)
 - [x] [Left View of Binary Tree](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1)
 - [x] [Kth Largest Element in BST](https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1)
 - [x] [Root to Leaf Paths](https://practice.geeksforgeeks.org/problems/root-to-leaf-paths/1)
+- [x] [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/) <cite>Amazon, Google, Microsoft</cite>
