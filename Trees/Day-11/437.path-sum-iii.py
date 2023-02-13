@@ -51,4 +51,17 @@
 #         self.right = right
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
+        totalMap = {0: 1}
+        self.count = 0
+        def traverse(root, currentSum):
+            if(not root):
+                return
+            currentSum += root.val
+            self.count += totalMap.get(currentSum - targetSum, 0)
+            totalMap[currentSum] = totalMap.get(currentSum, 0) + 1
+            traverse(root.left, currentSum)
+            traverse(root.right, currentSum)
+            totalMap[currentSum] -= 1
+        traverse(root, 0)
+        return self.count
         

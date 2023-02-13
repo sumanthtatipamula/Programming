@@ -139,11 +139,19 @@
 
 ### Day - 13
 
-- [x] [Largest BST SubTree](https://leetcode.com/problems/largest-bst-subtree/description/) <cite>Facebook, Amazon, Microsoft</cite>
+- [x] [Largest BST SubTree](https://leetcode.com/problems/largest-bst-subtree/description/) <cite>Facebook, Amazon, Microsoft</cite> &check;
 - [x] [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) <cite>Facebook, Amazon</cite>
 - [x] [Distribute coins in BT](https://leetcode.com/problems/distribute-coins-in-binary-tree/) <cite>Facebook, Amazon, Microsoft, Google</cite> &check;
 - [x] <b>P</b> [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/description/)<cite>Microsoft, Google</cite>
 - [x] [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/description/) <cite>Microsoft, Google, Amazon</cite>
+
+### Day - 14
+
+- [x] [Construct String from a BT](https://leetcode.com/problems/construct-string-from-binary-tree/description/) <cite>Facebook, Amazon</cite>
+- [x] [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/) <cite>Microsoft, Google, Amazon</cite>
+- [x] [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/) <cite>Microsoft, Google, Amazon</cite>
+- [x] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) <cite>Facebook, Amazon, Microsoft, Google</cite>
+- [x] [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) <cite>Facebook, Amazon</cite> &check;
 
 ### Miscellaneous
 
@@ -159,3 +167,9 @@
 - [x] [Kth Largest Element in BST](https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1)
 - [x] [Root to Leaf Paths](https://practice.geeksforgeeks.org/problems/root-to-leaf-paths/1)
 - [x] [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/) <cite>Amazon, Google, Microsoft</cite>
+- [x] [Predecessor and Successor](https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1) <cite> Ola </cite>
+- [x] [Maximum difference between node and its ancestor](https://practice.geeksforgeeks.org/problems/maximum-difference-between-node-and-its-ancestor/1) <cite>Amazon</cite>
+- [x] [Foldable Binary Tree](https://practice.geeksforgeeks.org/problems/foldable-binary-tree/1)
+- [x] [Kill Process](https://leetcode.com/problems/kill-process/description/) <cite>Amazon, Microsoft, Google</cite>
+- [x] [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/description/) <cite>Amazon, Microsoft, Google</cite>
+- [x] [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)<cite>Amazon, Microsoft, Google</cite>
