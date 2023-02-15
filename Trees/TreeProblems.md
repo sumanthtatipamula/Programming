@@ -193,6 +193,17 @@
 - [x] [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)<cite>Amazon, Microsoft, Google</cite>
 - [x] [Remove BST Keys Outside given range](https://practice.geeksforgeeks.org/problems/remove-bst-keys-outside-given-range/1) <cite>Microsoft</cite>
 - [x] [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/description/) <cite>Amazon, Microsoft</cite> &check;
+- [x] [Delete Nodes and Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/description/) - <cite>Amazon, Microsoft, Google, Facebook</cite>
+- [x] **P** [Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/description/) - <cite>Amazon, Facebook</cite>
+- [x] [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/) - <cite>Amazon, Microsoft, Google</cite>
+
+### Concepts
+
+---
+
+1. Expression Evaluations
+2. Segment Tree
+3. Fenwick Tree
 
 ### Problems for Next Cycle
 
