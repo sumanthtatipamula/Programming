@@ -36,7 +36,7 @@
 }%%
 pie showData
     title Problems Solved Per Tag
-    "Tree" : 93
-    "Graphs": 2
+    "Tree" : 96
+    "Graphs": 7
     "Arrays": 1
 ```
