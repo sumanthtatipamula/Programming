@@ -8,3 +8,12 @@
 5. If $G$ is an undirected graph, the sum of the lengths of all the adjacency lists is 2 * $|E|$
 6. The adjacency list representation has the desirable property that the amount of memory it requires is $\theta(V + E)$
 7. Since in an undirected graph, $(u, v)$ and $(v,u)$ represent the same edge, the adjacency matrix $A$ of an undirected graph is its own transpose $A = A^{T}$
+
+
+## Algorithms
+---
+
+1. Kruskal Algorithm:
+   1. Among all edges that don't create cycles, pick the edge with the least weight
+   2. Time Complexity: $O(E. log E)$. Here E represents the number of edges
+   3. Space Complexity : O(v)
