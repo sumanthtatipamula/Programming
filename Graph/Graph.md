@@ -24,6 +24,8 @@
       - Pick the smallest edge
       - check if the new edge forms a cycle in our existing spanning tree being formed
       - if cycle is not formed - include else - discard
+- [x] [Minimum Height Trees](https://www.youtube.com/watch?v=ivl6BHJVcB0)
+  - There can be atmost 2 MHT's
 
 ### Day - 1
 
@@ -54,6 +56,16 @@
 - [x] [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/) - <cite> Google, Oracle </cite> &check - revist - topological sort
 - [x] **P** [Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) - <cite>Amazon, Bloomberg, Oracle</cite>
 - [x] **P** [Sentence Similarity](https://leetcode.com/problems/sentence-similarity-ii/description/) - <cite> Amazon, Google </cite>
+
+### Day - 4
+
+---
+
+- [x] **P** [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) - <cite> Bloomberg LinkedIn, TikTok </cite>
+- [x] **P** [Parallel Courses](https://leetcode.com/problems/parallel-courses/description/) - <cite> Google, Microsoft, Amazon </cite>
+- [x] [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) - <cite> Amazon, Google, Uber </cite> &check;
+- [x] [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) <cite> Amazon, Google, TikTok </cite> &check;
+- [x] [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) - <cite> Amazon, Google, Microsoft</cite>
 
 ### Miscellaneous
 
