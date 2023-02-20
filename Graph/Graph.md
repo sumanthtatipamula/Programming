@@ -67,6 +67,13 @@
 - [x] [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) <cite> Amazon, Google, TikTok </cite> &check;
 - [x] [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) - <cite> Amazon, Google, Microsoft</cite>
 
+### Day - 5
+
+- [x] **P** [The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/description/) - <cite> Google, Expedia </cite>
+- [x] [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) - <cite> Amazon, Google, Facebook</cite>
+- [x] **P** [Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/description/) - <cite> Amazon, Bloomberg </cite>
+- [x] **P** [Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/description/) - <cite> Amazon</cite>
+
 ### Miscellaneous
 
 ---
