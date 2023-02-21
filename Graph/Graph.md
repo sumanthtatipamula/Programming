@@ -73,6 +73,17 @@
 - [x] [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) - <cite> Amazon, Google, Facebook</cite>
 - [x] **P** [Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/description/) - <cite> Amazon, Bloomberg </cite>
 - [x] **P** [Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/description/) - <cite> Amazon</cite>
+- [x] [Knight Walk](https://practice.geeksforgeeks.org/problems/knight-walk4521/1) - <cite> Amazon, Google, Microsoft </cite>
+
+### Day - 6
+
+---
+
+- [x] [01 Matrix](https://leetcode.com/problems/01-matrix/description/) - <cite> Amazon, Google, Facebook</cite> &check;
+- [x] [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) - <cite> Amazon, Google, TikTok </cite>
+- [x] [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/description/) - <cite> Amazon, Google, Microsoft </cite>
+- [x] [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) - <cite> Amazon, Google, Microsoft </cite>
+- [x] [Nearest Exit From Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/) - <cite> Amazon, Google, Facebook</cite>
 
 ### Miscellaneous
 
