@@ -14,6 +14,22 @@
 ---
 
 1. Kruskal Algorithm:
+
    1. Among all edges that don't create cycles, pick the edge with the least weight
    2. Time Complexity: $O(E. log E)$. Here E represents the number of edges
    3. Space Complexity : O(v)
+
+2. Prims Algorithms
+   1. Weighted Undirected Graph
+   2. Greedy Algorithms
+   3. Terms:
+      1. MST set - all the nodes that have been included in minimum spanning tree
+      2. Active Edge - Any edge from a vertex in MST set to V.
+      3. MST Edge - An edge that has been included in MST so far
+   4. Algorithm:
+      1. Start from any Source Vertex.
+      2. Out of alk active edges, pick the one with smallest weight
+         1. Add Y in MST
+         2. Add edges start from Y in active edge list
+      3. loop step 2
+      4.

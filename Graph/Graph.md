@@ -85,6 +85,16 @@
 - [x] [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) - <cite> Amazon, Google, Microsoft </cite>
 - [x] [Nearest Exit From Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/) - <cite> Amazon, Google, Facebook</cite>
 
+### Day - 7
+
+---
+
+- [x] [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/) - <cite> MakeMyTrip </cite>
+- [x] [Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/) - <cite> Microsoft </cite>
+- [x] [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/) - <cite>Amazon, Apple, Microsoft</cite>
+- [x] [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/description/) - <cite>Microsoft</cite>
+- [x] [Minimum Spanning Tree](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1) - <cite> Amazon, Microsoft, Samsung </cite>
+
 ### Miscellaneous
 
 ---
