@@ -13,13 +13,13 @@
 ## Algorithms
 ---
 
-1. Kruskal Algorithm:
+1. **Kruskal Algorithm**:
 
    1. Among all edges that don't create cycles, pick the edge with the least weight
    2. Time Complexity: $O(E. log E)$. Here E represents the number of edges
    3. Space Complexity : O(v)
 
-2. Prims Algorithms
+2. **Prims Algorithms**
    1. Weighted Undirected Graph
    2. Greedy Algorithms
    3. Terms:
@@ -32,4 +32,42 @@
          1. Add Y in MST
          2. Add edges start from Y in active edge list
       3. loop step 2
-      4.
+3. **Back Edges**
+   1. It is an edge (u, v) such that v is an ancestor of node u but not part of the DFS Traversal of the tree. Edge from 5 to 4 is a back edge.
+   2. The presence of a back edge indicates a cycle in a graph.
+   3. Special Property of Ancestors and DFS
+      1. Ancestor has to be in call stack when I reach child node.
+   4. In Directed Graph
+      1. States:
+         1. 0 - yet to be visited
+         2. 1 - visited and in call stack
+         3. 2 - visited and not in call stack
+4. **Articulation Points**
+   1. Requirements - DFS, Back Edges, DP
+   2. A vertex V in a connected graph is a articulation point if and only if the deletion of vertex V together with all edges to V disconnects the graph into two or more non empty components.
+   3. _Bridge_: An edge in connected graph if and only if removing it disconnects the graph.
+   4. The root of G is an articulation point of G if and only if it has atleast two children
+   5. V be a non root vertex of G, then V is articulation point of G if and only if v has a child s such that there is no back edge from s or any descendant of s to a proper ancestor of v.
+   6. _Discovered time_: Time at which current node was discovered during the bfs
+   7. _Lowest Time_ : It is the minimum discovered time of a node to which we can traverse by using at most one backedge in current subtree.
+   8. Conditions:
+      1. low[x] >= disc[curr] - articulation point
+      2. low[x] > disc[curr] - bridge
+5. Shortest Path Algorithms
+   1. Single Source Shortest Path
+      1. BFS - doesn't work with weighted edges
+      2. [Dijkstra Algorithm](https://www.youtube.com/watch?v=Sj5Z-jaE2x0)
+         1. doesn't work with negative edges
+         2. Greedy algorithm
+         3. Algorithm:
+            1. Maintain a set of processed nodes
+            2. Assign all nodes with distance value = inf except source node 0
+            3. Repeat following :
+               1. Pick minimum value vertex which is not already processed
+               2. Include this selected node in processed set
+               3. update all the adjacent node distances
+               4. if(new distance < old distance) then update else skip
+      3. Bellman Ford
+   2. All Pairs shortest Path
+      1. Floyd Warshall
+      2. Dynamic Programming based algorithm

@@ -95,6 +95,16 @@
 - [x] [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/description/) - <cite>Microsoft</cite>
 - [x] [Minimum Spanning Tree](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1) - <cite> Amazon, Microsoft, Samsung </cite>
 
+### Day - 8
+
+---
+
+- [x] [Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/description/) - <cite> Juspay </cite>
+- [x] [Detect Cycle in a directed graph](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) - <cite> Amazon, Microsoft </cite>
+- [x] [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/description/) - <cite>Facebook, Amazon, Microsoft</cite>
+- [x] [Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)
+- [x] [Network Delay Time](https://leetcode.com/problems/network-delay-time/description/) - <cite> Google, Amazon, Microsoft </cite>
+
 ### Miscellaneous
 
 ---
@@ -107,3 +117,5 @@
 - [x] [Clone Graph](https://leetcode.com/problems/clone-graph/) - <cite>Amazon, Apple, Facebook</cite>
 - [x] [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) - <cite>Bloomberg, ByteDance, TikTok</cite>
 - [x] **P** [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/) - <cite>TikTok, Google, Amazon</cite>
+- [x] [Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/) - <cite> Microsoft </cite>
+- [x] [Min Cost to connect all points](https://leetcode.com/problems/min-cost-to-connect-all-points/) - <cite> Amazon, Microsft </cite>
