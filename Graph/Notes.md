@@ -71,3 +71,50 @@
    2. All Pairs shortest Path
       1. Floyd Warshall
       2. Dynamic Programming based algorithm
+6. Topological Order and Strongly Connected Components
+   1. Topological Sorting : for Directed Acyclic Graph is a linear ordering of vertices such that for every directed edge U V, vertex U comes before V in the ordering. Topological Sorting for a graph is not possible, if it is not a DAG.
+   2. Topological Order: You have to number the vertices so that every edge leads from the vertex with a smaller number assigned to the vertex with a larger one.
+   3. In other words, you want to find a permutation of the vertices which corresponds to the order defined by all edges of graph.
+   4. Topological Order can be non-unique
+   5. Topological Order may not exist at all if the graph contains cycles.
+   6. There is a difference between DFS and Topological Ordering
+   7. Strongly connected components is for Directed Graphs
+   8. Terms for Topological Ordering
+      1. Finish Time - Time when we leave the node in BFS
+      2. For any two nodes u and v, if there is an edge from u -> v finish time of u will be higher than finish time of v
+   9. Strongly connected Components
+      1. Connectivity in an undirected graph means that every vertex can reach every other vertex via any path. If graph is not connected the graph can broken down into Connected Components
+      2. Strong Connectivity applies only to directed graphs. A directed graph is strongly connected if there is a directed path from any vertex to every other vertex
+         1. cycle in directed graph is strongly connected component
+      3. Condensed Component Graph - is a DAG in which every node is a strongly connected component and edges between nodes if there is an edge from one of the nodes of these SCC in original graph
+         1. Considering Strongly connected component as single node.
+      4. Source - Node with no incoming edges
+      5. Sink - Node with no out going edges
+      6. There will be no cycle/SCC in new condensed component graph.
+      7. Single Node is a strongly connected component
+      8. Reverse of SCC is still SCC same goes with non scc
+   10. Kosaraju Algorithm
+       1. Algorithm:
+          1. Perform DFS traversal of graph. Push Node to stack before returning
+          2. Find the transpose graph by reversing the edges
+          3. Pop nodes one by one from stack and again do dfs on modified graph
+             1. Each Successfull DFS gives 1 SCC
+7. Euler Tours
+   1. Prerequisites: Segment Tree, Segment Tree with lazy propagation, Fenwick Tree
+   2. An euler path is a path that goes through every edge of a graph exactly once.
+   3. An Euler circuit is an euler path that begins and ends at the same vertex.
+   4. Types
+      1. Goto node print it, exit node print it 2 \* nodes
+         1. All nodes that lies in timein[u] -> timeout[u] are in subtree of u
+         2. To check u is an ancestor v
+            1. tin[u] < tin[v] and tout[u] > tout[v]
+         3. Sum of all nodes in a subtree
+            1. sum(tin[u] + tin[out]) / 2
+      2. goto node print it, come back print it 2 \* n - 1
+      3. Best Euler Tour
+         1. goto node print it(increment time and assign it)
+         2. when I leave a node I won't increment time
+8. LCA
+   1. Binary Lift
+9. Re routing of Trees
+   1. Initially all vertices are white on the first turn of the game you choose one vertex and paint it black, this becomes the root node of the tree. Then on each turn you choose a white vertex adjacent(connected by an edge) to any black vertex and paint it black. Each time when you choose a vertex(even during the first turn), you gain the number of points equal to the size of connected components consisting only of white vertices that contains the chosen vertex. The game ends when all vertices are painted black. Your task is to maximize the number of points you gain.
