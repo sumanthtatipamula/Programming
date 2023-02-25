@@ -111,6 +111,13 @@
 
 - [x] [Sum of Distances in Tree] (https://leetcode.com/problems/sum-of-distances-in-tree/description/) - <cite> Google, Facebook </cite>
 
+### Day - 10
+
+---
+
+- [x] [Hamiltonian Cycle](https://practice.geeksforgeeks.org/problems/hamiltonian-path2522/1) - <cite> Amazon </cite>
+- [x] [Tarjan Algorithm](https://practice.geeksforgeeks.org/problems/strongly-connected-component-tarjanss-algo-1587115621/1) - <cite> Amazon </cite>
+
 ### Miscellaneous
 
 ---

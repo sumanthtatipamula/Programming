@@ -118,3 +118,11 @@
    1. Binary Lift
 9. Re routing of Trees
    1. Initially all vertices are white on the first turn of the game you choose one vertex and paint it black, this becomes the root node of the tree. Then on each turn you choose a white vertex adjacent(connected by an edge) to any black vertex and paint it black. Each time when you choose a vertex(even during the first turn), you gain the number of points equal to the size of connected components consisting only of white vertices that contains the chosen vertex. The game ends when all vertices are painted black. Your task is to maximize the number of points you gain.
+10. DeBrujin Sequence
+    1. To generate a sequence for base - k of substring size n = 2 we need an overall string of k ^ n
+    2. This can be solved using graph theory
+    3. Nodes will represent each possible substring of sie N
+    4. Edges will be established between Node A and Node B if the last N - 1 digits in Node A when appended with [0..K-1] is transformed into Node B
+    5. Use DFS to find a path that visits all nodes exactly once.
+    6. Because we always reuse previous n -1 digits to compute the new node we need to get rid of n - 1 adjacent digits k ^ n - 1 times
+11. A cycle that travels exactly once over each edge in a graph is called “Eulerian.” A cycle that travels exactly once over each vertex in a graph is called “Hamiltonian.”
