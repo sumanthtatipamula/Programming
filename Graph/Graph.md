@@ -117,6 +117,19 @@
 
 - [x] [Hamiltonian Cycle](https://practice.geeksforgeeks.org/problems/hamiltonian-path2522/1) - <cite> Amazon </cite>
 - [x] [Tarjan Algorithm](https://practice.geeksforgeeks.org/problems/strongly-connected-component-tarjanss-algo-1587115621/1) - <cite> Amazon </cite>
+- [x] [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/) - <cite> Amazon, Bloomberg, Google </cite>
+- [x] [Strongly Connected Components -Kosaraju](https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1) - <cite> Amazon </cite>
+- [x] [Word Search](https://practice.geeksforgeeks.org/problems/word-search/1) - <cite> Amazon, Microsoft, Apple </cite>
+
+### Day - 11
+
+---
+
+- [x] [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) - <cite>Google, Amazon, TikTok<cite>
+- [x] [Accounts Merge](https://leetcode.com/problems/accounts-merge/description/) - <cite>Facebook, Amazon, Apple<cite> &check;
+- [x] [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) - <cite> Amazon </cite>
+- [x] [Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/) - <cite> Amazon </cite>
+- [x] [Evaluate Division](https://leetcode.com/problems/evaluate-division/description/) - <cite> Amazon, Microsoft, Google </cite>
 
 ### Miscellaneous
 
