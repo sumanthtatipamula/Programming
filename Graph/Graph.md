@@ -131,6 +131,16 @@
 - [x] [Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/) - <cite> Amazon </cite>
 - [x] [Evaluate Division](https://leetcode.com/problems/evaluate-division/description/) - <cite> Amazon, Microsoft, Google </cite>
 
+### Day - 12
+
+---
+
+- [x] [Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/) - <cite> Google, LinkedIn </cite>
+- [ ] [Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/) - <cite> Google, Facebook, Amazon </cite>
+- [ ] [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) - <cite> Google </cite>
+- [ ] [Word Ladder](https://leetcode.com/problems/word-ladder/) - <cite> Amazon, Google </cite>
+- [ ] [Snake and Ladders](https://leetcode.com/problems/snakes-and-ladders/) - <cite> Amazon, Microsoft</cite>
+
 ### Miscellaneous
 
 ---
