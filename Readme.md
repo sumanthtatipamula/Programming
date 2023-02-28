@@ -37,6 +37,6 @@
 pie showData
     title Problems Solved Per Tag
     "Tree" : 96
-    "Graphs": 61
+    "Graphs": 63
     "Arrays": 2
 ```
