@@ -69,7 +69,7 @@ class Solution:
             for _ in range(len(queue)):
                 source, edgeType = queue.popleft()
                 for child, childEdgeType in adj[source]:
-                    edgeKey = str(source) + childEdgeType+ str(child)
+                    edgeKey = str(source) + childEdgeType + str(child)
                     if(childEdgeType != edgeType and edgeKey not in vis):
                         vis.add(edgeKey)
                         if(res[child] == -1):

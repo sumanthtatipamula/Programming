@@ -62,7 +62,7 @@
          3. Algorithm:
             1. Maintain a set of processed nodes
             2. Assign all nodes with distance value = inf except source node 0
-            3. Repeat following :
+            3. Repeat following for (V - 1):
                1. Pick minimum value vertex which is not already processed
                2. Include this selected node in processed set
                3. update all the adjacent node distances

@@ -136,10 +136,10 @@
 ---
 
 - [x] [Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/) - <cite> Google, LinkedIn </cite>
-- [ ] [Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/) - <cite> Google, Facebook, Amazon </cite>
-- [ ] [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) - <cite> Google </cite>
-- [ ] [Word Ladder](https://leetcode.com/problems/word-ladder/) - <cite> Amazon, Google </cite>
-- [ ] [Snake and Ladders](https://leetcode.com/problems/snakes-and-ladders/) - <cite> Amazon, Microsoft</cite>
+- [x] [Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/) - <cite> Google, Facebook, Amazon </cite>
+- [x] [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) - <cite> Google call</cite>
+- [x] [Word Ladder](https://leetcode.com/problems/word-ladder/) - <cite> Amazon, Google </cite> &check;
+- [x] [Snake and Ladders](https://leetcode.com/problems/snakes-and-ladders/) - <cite> Amazon, Microsoft</cite>
 
 ### Miscellaneous
 
