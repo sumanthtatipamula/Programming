@@ -110,6 +110,10 @@
 ---
 
 - [x] [Sum of Distances in Tree] (https://leetcode.com/problems/sum-of-distances-in-tree/description/) - <cite> Google, Facebook </cite>
+- [x] [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) - <cite>Bloomberg, ByteDance, TikTok</cite>
+- [x] **P** [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/) - <cite>TikTok, Google, Amazon</cite>
+- [x] [Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/) - <cite> Microsoft </cite>
+- [x] [Min Cost to connect all points](https://leetcode.com/problems/min-cost-to-connect-all-points/) - <cite> Amazon, Microsft </cite>
 
 ### Day - 10
 
@@ -141,6 +145,16 @@
 - [x] [Word Ladder](https://leetcode.com/problems/word-ladder/) - <cite> Amazon, Google </cite> &check;
 - [x] [Snake and Ladders](https://leetcode.com/problems/snakes-and-ladders/) - <cite> Amazon, Microsoft</cite>
 
+### Day - 13
+
+---
+
+- [x] [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/) - <cite>Microsoft, Google</cite>
+- [x] [Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/description/) - <cite> Intuit </cite>
+- [x] [Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/description/) - <cite>Amazon, Google, Apple</cite>
+- [x] [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/description/) - <cite>Apple</cite>
+- [x] [Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/) - <cite> Google, Amazon, Microsoft </cite>
+
 ### Miscellaneous
 
 ---
@@ -151,7 +165,3 @@
 - [x] [Detect Cycle in an undirected Graph](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) - <cite> Microsoft, Amazon</cite>
 - [x] [DFS of Graph](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) - <cite>Amazon, Samsung, Accolite</cite>
 - [x] [Clone Graph](https://leetcode.com/problems/clone-graph/) - <cite>Amazon, Apple, Facebook</cite>
-- [x] [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) - <cite>Bloomberg, ByteDance, TikTok</cite>
-- [x] **P** [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/) - <cite>TikTok, Google, Amazon</cite>
-- [x] [Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/) - <cite> Microsoft </cite>
-- [x] [Min Cost to connect all points](https://leetcode.com/problems/min-cost-to-connect-all-points/) - <cite> Amazon, Microsft </cite>
