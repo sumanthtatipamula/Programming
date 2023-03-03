@@ -155,6 +155,10 @@
 - [x] [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/description/) - <cite>Apple</cite>
 - [x] [Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/) - <cite> Google, Amazon, Microsoft </cite>
 
+### Day - 14
+
+- [x] **P**[Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/description/) - <cite> Google, Microsoft, Facebook </cite> &check;
+
 ### Miscellaneous
 
 ---
@@ -164,4 +168,4 @@
 - [x] [Minimum number of vertices to reach all nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/description/) - <cite> Google, Amazon, Airbnb </cite>
 - [x] [Detect Cycle in an undirected Graph](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) - <cite> Microsoft, Amazon</cite>
 - [x] [DFS of Graph](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) - <cite>Amazon, Samsung, Accolite</cite>
-- [x] [Clone Graph](https://leetcode.com/problems/clone-graph/) - <cite>Amazon, Apple, Facebook</cite>
+- [x] [Clone Graph](https://leetcode.com/problems/clone-graph/) - <cite> Amazon, Apple, Facebook</cite>
