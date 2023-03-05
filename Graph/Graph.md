@@ -27,6 +27,30 @@
 - [x] [Minimum Height Trees](https://www.youtube.com/watch?v=ivl6BHJVcB0)
   - There can be atmost 2 MHT's
 
+### Graph Algorithms
+
+1. BFS
+2. DFS
+3. Detect Cycle in Undirected and Directed Graph
+4. Topological Sorting
+   1. Khan's Algorithm
+5. Shortest Path
+   1. Dijkstra
+   2. Bellman Ford
+   3. Floyd Warshall
+6. Union Find
+   1. Path compression
+   2. Union by Rank
+7. Strongly Connected Components
+   1. Kosaraju
+   2. Tarjan
+8. Min Spanning Trees
+   1. Kruskal
+   2. Prim
+9. Re routing
+10. Euler
+11. Hamiltonian
+
 ### Day - 1
 
 ---
@@ -143,7 +167,7 @@
 - [x] [Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/) - <cite> Google, Facebook, Amazon </cite>
 - [x] [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) - <cite> Google call</cite>
 - [x] [Word Ladder](https://leetcode.com/problems/word-ladder/) - <cite> Amazon, Google </cite> &check;
-- [x] [Snake and Ladders](https://leetcode.com/problems/snakes-and-ladders/) - <cite> Amazon, Microsoft</cite>
+- [x] [Snake and Ladders](https://leetcode.com/problems/snakes-and-ladders/) - <cite> Amazon, Microsoft</cite> &check;
 
 ### Day - 13
 
@@ -158,8 +182,12 @@
 ### Day - 14
 
 - [x] **P**[Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/description/) - <cite> Google, Microsoft, Facebook </cite> &check;
+- [x] [Making A Large Island](https://leetcode.com/problems/making-a-large-island/) - <cite> Amazon, Bloomberg </cite>
+- [x] [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/) - <cite>Juspay</cite>
+- [x] [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) - <cite> Amazon, Adobe, Bloomberg </cite>
+- [x] [Count the number of Triangles](https://practice.geeksforgeeks.org/batch/gts-1/track/GTS-GRAPH/problem/count-the-number-of-triangles) - <cite> Google </cite> &check;
 
-### Miscellaneous
+### Day - 15
 
 ---
 
