@@ -30,7 +30,8 @@
         'primaryTextColor': '#fff',
         'pie1': '#1E3',
         'pie2': '#FFFF00',
-        'pie3': '#ffebca'
+        'pie3': '#ffebca',
+        'pie4': '#3ed'
       }
   }
 }%%
@@ -38,5 +39,6 @@ pie showData
     title Problems Solved Per Tag
     "Tree" : 96
     "Graphs": 75
-    "Arrays": 3
+    "Arrays": 6
+    "Dp": 11
 ```
