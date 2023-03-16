@@ -36,6 +36,16 @@
 - [x] **P** [Max Consecutive Ones-II](https://leetcode.com/problems/max-consecutive-ones-ii/) - <cite> Google, Yandex, Zoom </cite>
 - [x] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) - <cite> Amazon, Facebook, Microsoft, Google </cite>
 
+#### Day-2
+
+---
+
+- [x]**P**[toss strange coins](https://leetcode.com/problems/toss-strange-coins/description/) - <cite>Google</cite>
+- [x] [Delete and Earn](https://leetcode.com/problems/delete-and-earn/description/) - <cite>Amazon, Uber</cite>
+- [x] [House Robber](https://leetcode.com/problems/house-robber/) - <cite> Amazon, Cisco </cite>
+- [x] [House Robber-II](https://leetcode.com/problems/house-robber-ii/) - <cite> Google, Adobe </cite>
+- [x] [Decode Ways](https://leetcode.com/problems/decode-ways/) - <cite> Amazon, Facebook </cite>
+
 #### Misc
 
 ---
