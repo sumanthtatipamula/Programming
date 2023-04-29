@@ -18,7 +18,7 @@ if __name__ == '__main__':
     t = int(input())
     for _ in range(t):
         N, W = [int(x) for x in input().split()]
-        val = input().split()
+        val = list(input().split())
         for itr in range(N):
             val[itr] = int(val[itr])
         wt = input().split()
@@ -27,4 +27,5 @@ if __name__ == '__main__':
         
         ob = Solution()
         print(ob.knapSack(N, W, val, wt))
+
 # } Driver Code Ends

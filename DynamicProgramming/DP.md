@@ -52,3 +52,12 @@
 
 - [x] [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) - <cite>Amazon, Google, Flipkart</cite>
 - [x] [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/) - <cite>Amazon, Adobe </cite>
+
+### Knapsack Problem
+
+---
+
+- [x] 0/1 Knapsack
+- [ ] 0/n knapsack
+- [ ] colorful knapsack
+- [ ] changing the states -> KP
