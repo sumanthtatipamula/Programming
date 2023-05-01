@@ -32,9 +32,10 @@ Output: 2
 -   `1 <= n <= 100`
 -   `1 <= costs[i][j] <= 20`
 """
+
 class Solution:
     def minCost(self, costs: List[List[int]]) -> int:
         for i in range(len(costs) - 2, -1, -1):
-            for j in range(3):
-                costs[i][j] = costs[i][j] + min(costs[i + 1][(j + 1) % 3], costs[i + 1][(j + 2) % 3])
+            for j in range(0, 3):
+                costs[i][j] += min(costs[i + 1][(j + 1) % 3], costs[i + 1][(j + 2) % 3])
         return min(costs[0])
