@@ -1,6 +1,6 @@
 import sys, os
-sys.stdin = open(os.path.join(sys.path[0], "input.txt"), "r")
-sys.stdout = open(os.path.join(sys.path[0], "output.txt"), "w")
+sys.stdin = open("input.txt", "r")
+sys.stdout = open("output.txt", "w")
 
 n = int(input())
 elements = list(map(int, input().split()))
@@ -19,13 +19,3 @@ for i in range(n - 2, -1, -1):
     if(elements[i] > 0):
         right_pos += 1
 print(changes)
-
-    
-
-
-    
-
-
-
-
-        
