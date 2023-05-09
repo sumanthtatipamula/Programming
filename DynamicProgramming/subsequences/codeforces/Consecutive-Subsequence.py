@@ -1,8 +1,3 @@
-import sys, os
-sys.stdin = open(os.path.join(sys.path[0], "input.txt"), "r")
-sys.stdout = open(os.path.join(sys.path[0], "output.txt"), "w")
-
-
 from collections import defaultdict
 
 
@@ -17,21 +12,7 @@ for i in range(0, n):
         max_index = i
 print(max_count)
 start = elements[max_index] - max_count + 1 
-for i in range(0, max_index + i):
+for i in range(0, max_index + 1):
     if(elements[i] == start):
-        print(start , end= " ")
+        print(i + 1 , end= " ")
         start += 1
-
-
-
-        
-
-
-
-
-
-
-
-    
-
-

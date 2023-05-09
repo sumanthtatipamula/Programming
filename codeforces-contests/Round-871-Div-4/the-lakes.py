@@ -8,11 +8,12 @@ def dfs(grid, i, j, r, c):
     return depth
 
 
+
 for _ in range(int(input())):
     r, c =  map(int, input().split())
-    grid = [[0] * (c) for _ in range(r)]
+    grid = []
     for i in range(r):
-        grid[i] = [int(j) for j in input().strip().split(" ")]
+        grid.append([int(j) for j in input().split(" ")])
     max_depth = 0
     for i in range(r):
         for j in range(c):
