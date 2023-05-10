@@ -1,8 +1,3 @@
-import sys, os
-sys.stdin = open(os.path.join(sys.path[0], "input.txt"), "r")
-sys.stdout = open(os.path.join(sys.path[0], "output.txt"), "w")
-
-
 length = int(input())
 s, t = input(), input()
 count = 0
@@ -16,22 +11,3 @@ while(right < length):
             count += 1
     right += 1
 print(count)
-
-            
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-    
-
-
