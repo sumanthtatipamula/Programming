@@ -1,9 +1,3 @@
-# import sys, os
-# sys.stdin = open(os.path.join(sys.path[0], "input.txt"), "r")
-# sys.stdout = open(os.path.join(sys.path[0], "output.txt"), "w")
-
-# import sys
-# input = sys.stdin.readline
 from math import ceil
 
 for _ in range(int(input())):
@@ -62,36 +56,3 @@ for _ in range(int(input())):
                 else:
                     result += 'S'
         print(result)
-                
-                
-
-                    
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-    
-
-
