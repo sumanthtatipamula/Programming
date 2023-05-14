@@ -1,5 +1,7 @@
 ---
 title: Home
+hide:
+  - footer
 ---
 
 # Welcome to Competitive Programming Notes

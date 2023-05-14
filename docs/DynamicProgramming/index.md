@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 # Dynamic Programming
 
 This pages act as home page for DP concepts
