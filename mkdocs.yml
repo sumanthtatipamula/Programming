@@ -1,0 +1,67 @@
+site_name: Algorithms for Competitive Programming
+docs_dir: docs
+site_dir: public
+use_directory_urls: false
+theme:
+  name: material
+  palette:
+    - scheme: cpalgo
+      primary: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  # logo: favicon.ico
+  # favicon: favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - toc.integrate
+    - search.suggest
+extra_javascript:
+  - javascript/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+      tex_inline_wrap: ['$', '$']
+      tex_block_wrap: ['$$', '$$']
+  - pymdownx.highlight
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - meta
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - mkdocs-simple-hooks:
+      hooks:
+        on_env: 'hooks:on_env'
+  - search
+  # - literate-nav:
+  #     nav_file: navigation.md
+  - git-revision-date-localized:
+      enable_creation_date: true
+      enabled: !ENV [MKDOCS_ENABLE_GIT_REVISION_DATE, False]
+  - git-authors
+  - macros
+
+extra:
+  analytics:
+    provider: google
+    property: UA-85220282-1
