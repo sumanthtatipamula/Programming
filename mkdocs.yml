@@ -1,7 +1,8 @@
-site_name: Algorithms for Competitive Programming
+site_name: Competitive Programming Notes
 docs_dir: docs
 site_dir: public
 use_directory_urls: false
+repo_url: https://github.com/sumanthtatipamula/Programming
 theme:
   name: material
   palette:
@@ -14,7 +15,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-  # logo: favicon.ico
+  logo: logo.png
   # favicon: favicon.ico
   icon:
     repo: fontawesome/brands/github
@@ -23,6 +24,8 @@ theme:
     - navigation.tabs
     - toc.integrate
     - search.suggest
+    - header.autohide
+    - content.action.view
 extra_javascript:
   - javascript/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -57,11 +60,8 @@ plugins:
   #     nav_file: navigation.md
   - git-revision-date-localized:
       enable_creation_date: true
-      enabled: !ENV [MKDOCS_ENABLE_GIT_REVISION_DATE, False]
   - git-authors
   - macros
 
 extra:
-  analytics:
-    provider: google
-    property: UA-85220282-1
+  generator: false
