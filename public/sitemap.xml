@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://competitiveprogramming.vercel.app/MyProgress/Contests.html</loc>
+         <lastmod>2023-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://competitiveprogramming.vercel.app/MyProgress/May-logs.html</loc>
          <lastmod>2023-05-14</lastmod>
          <changefreq>daily</changefreq>

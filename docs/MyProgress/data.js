@@ -33,7 +33,7 @@ var data = {
 	],
 	datasets: [
 		{
-			label: 'My First dataset',
+			label: 'LeetCode',
 			fillColor: 'rgba(255, 99, 132, 0.2)',
 			strokeColor: 'rgb(255, 99, 132)',
 			pointColor: 'rgb(255, 99, 132)',
@@ -43,7 +43,7 @@ var data = {
 			data: [5, 5, 5, 5, 2, 1, 7, 4, 5, 3, 4, 5, 0, 0],
 		},
 		{
-			label: 'My Second dataset',
+			label: 'CodeForces',
 			fillColor: 'rgba(153, 102, 255, 0.2)',
 			strokeColor: 'rgb(153, 102, 255)',
 			pointColor: 'rgb(153, 102, 255)',
