@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "0be3b1cc4e3b6d58",
+    "type": "split",
+    "children": [
+      {
+        "id": "d80f1b0a76520e8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e085eb0f7e1c092",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Graphs/ShortestPathAlgorithms/Dijkstra's.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "289d75b7904e5f09",
+    "type": "split",
+    "children": [
+      {
+        "id": "a58eb4de0c3d27b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d8712b6bb2d9c50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7ca258eb0edaed6b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9cbb9f795f35a837",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "61c27ca00a070c71",
+    "type": "split",
+    "children": [
+      {
+        "id": "3de4d3b1416cd0c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79368de211f0f3b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Graphs/ShortestPathAlgorithms/Dijkstra's.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "04bdd0e1c984d96d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/Graphs/ShortestPathAlgorithms/Dijkstra's.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c1f564ae83e63e2c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a834799af01cb807",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/Graphs/ShortestPathAlgorithms/Dijkstra's.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3e085eb0f7e1c092",
+  "lastOpenFiles": [
+    "docs/DynamicProgramming/DigitDp.md",
+    "aeb3e76a110c2e2eda92aa401352c0e9_MD5.png.md",
+    "docs/Graphs/ShortestPathAlgorithms/Dijkstra's.md",
+    "docs/Graphs/ShortestPathAlgorithms/dijkstra-impl.png"
+  ]
+}
