@@ -2,32 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://competitiveprogramming.vercel.app/index.html</loc>
-         <lastmod>2023-05-14</lastmod>
+         <lastmod>2023-05-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://competitiveprogramming.vercel.app/DynamicProgramming/index.html</loc>
-         <lastmod>2023-05-14</lastmod>
+         <lastmod>2023-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://competitiveprogramming.vercel.app/DynamicProgramming/DigitDp.html</loc>
+         <lastmod>2023-05-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://competitiveprogramming.vercel.app/DynamicProgramming/Subsequences.html</loc>
-         <lastmod>2023-05-14</lastmod>
+         <lastmod>2023-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://competitiveprogramming.vercel.app/DynamicProgramming/Problems/Categories.html</loc>
+         <lastmod>2023-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://competitiveprogramming.vercel.app/DynamicProgramming/Problems/Dp-On-Trees/2313.min-flips-in-binary-tree-to-get-result.html</loc>
+         <lastmod>2023-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://competitiveprogramming.vercel.app/DynamicProgramming/Problems/One-Dimensional/1230.toss-strange-coins.html</loc>
+         <lastmod>2023-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://competitiveprogramming.vercel.app/DynamicProgramming/Problems/One-Dimensional/1746.maximum-subarray-sum-after-one-operation.html</loc>
+         <lastmod>2023-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://competitiveprogramming.vercel.app/DynamicProgramming/Problems/One-Dimensional/256.paint-house.html</loc>
+         <lastmod>2023-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://competitiveprogramming.vercel.app/DynamicProgramming/Problems/One-Dimensional/265.paint-house-ii.html</loc>
+         <lastmod>2023-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://competitiveprogramming.vercel.app/DynamicProgramming/Problems/One-Dimensional/487.Max-Consecutive-Ones-II.html</loc>
+         <lastmod>2023-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://competitiveprogramming.vercel.app/Graphs/index.html</loc>
+         <lastmod>2023-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://competitiveprogramming.vercel.app/Graphs/ShortestPathAlgorithms/Dijkstra%27s.html</loc>
+         <lastmod>2023-05-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://competitiveprogramming.vercel.app/MyProgress/index.html</loc>
-         <lastmod>2023-05-14</lastmod>
+         <lastmod>2023-05-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://competitiveprogramming.vercel.app/MyProgress/Contests.html</loc>
-         <lastmod>2023-05-14</lastmod>
+         <lastmod>2023-05-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://competitiveprogramming.vercel.app/MyProgress/May-logs.html</loc>
-         <lastmod>2023-05-14</lastmod>
+         <lastmod>2023-05-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
