@@ -1,7 +1,3 @@
-import sys, os
-sys.stdin = open(os.path.join(sys.path[0], "input.txt"), "r")
-sys.stdout = open(os.path.join(sys.path[0], "output.txt"), "w")
-
 from collections import defaultdict
 
 n = int(input())
@@ -24,5 +20,3 @@ for i in range(n -  1):
 
 find_min_vertex(1, -1)
 print(min(dp[1][1], dp[1][0]))
-
-
