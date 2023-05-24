@@ -1078,8 +1078,8 @@ The set can be {2}</p>
 <li>for leaf nodes dp[leaf][0] = 0 dp[leaf][1] = 1</li>
 </ol>
 <h2 id="solution">Solution</h2>
-<p>```py linenums="1"
-from collections import defaultdict</p>
+<p>```py</p>
+<p>from collections import defaultdict</p>
 <p>n = int(input())
 adj = defaultdict(list)
 dp = [[0] * 2 for _ in range(n + 1)]
@@ -1096,19 +1096,19 @@ def find_min_vertex(source, parent):
     adj[u].append(v)
     adj[v].append(u)</p>
 <p>find_min_vertex(1, -1)
-print(min(dp[1][1], dp[1][0]))
-```</p>
+print(min(dp[1][1], dp[1][0]))</p>
+<p>```</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-05-22T05:37:56+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-05-22</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-05-24T07:21:17+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-05-24</span>
       
         <br>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-05-22T05:37:57+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-05-22</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-05-24T07:21:17+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-05-24</span>
       
     
   </small>
