@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://competitiveprogramming.vercel.app/GFG-Contests/weekly-contest-103/K-periodic-circular-string.html">
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-8.2.8">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8">
     
     
       
@@ -965,27 +965,25 @@
 Given a circular string <strong>s</strong>, find whether there exists a permuation of s which is a K-periodic circular string and if it exists then find lexicographically smallest permuation of s which is a K-periodic circular string. Return empty string if there does not exist a valid permutation of s which is a K-periodic circular string.<br />
 <strong>Note</strong>: You can rotate string in any direction.</p>
 <p><strong>Example 1:</strong></p>
-<p>```
-Input:
-s = "abba"
+<div class="highlight"><pre><span></span><code>Input:
+s = &quot;abba&quot;
 K = 2
 Output:
 abab
 Explanation:
-"abab" when rotated by 2 units remains
-same.</p>
-<p>```</p>
+&quot;abab&quot; when rotated by 2 units remains
+same.
+</code></pre></div>
 <p><strong>Example 2:</strong></p>
-<p>```
-Input:
-s = "abbbbbb"
+<div class="highlight"><pre><span></span><code>Input:
+s = &quot;abbbbbb&quot;
 K = 4
 Output:
 -1
 Explanation:
 No permuation of s can be a 4-periodic
-circular string.</p>
-<p>```</p>
+circular string.
+</code></pre></div>
 <p><strong>Your Task:</strong><br />
 You don't need to read input or print anything. Your task is to complete the function <strong>kPeriodic()</strong> which takes the string <strong>s</strong> and integer <strong>K</strong> as input parameters and returns the lexicographically smallest permuation of s which is a K-periodic circular string if it exists, else returns an empty string, the driver code will print "-1" in that case.</p>
 <p><strong>Expected Time Complexity:</strong> O(|s|)<br />
@@ -993,40 +991,39 @@ You don't need to read input or print anything. Your task is to complete the fun
 <p><strong>Constraints:</strong><br />
 1 ≤ |s| ≤ 10<sup>5</sup><br />
 1 ≤ K ≤ 10<sup>9</sup></p>
-<p>```python</p>
-<p>class Solution:
-    def kPeriodic(self, s, k):
-        freq = [0] * 26
-        different_chars = 0
-        current_char = ''
-        for char in s:
-            freq[ord(char) - ord('a')] += 1
-            if(freq[ord(char) - ord('a')] == 1):
-                different_chars += 1
-                current_char = 'a'
-        size, index = 0, 0
-        result = ['-'] * len(s)
-        while(result[index] == '-'):
-            size += 1
-            result[index] = '.'
-            index += k
-            index %= len(s)
-        for i in range(26):
-            if(freq[i] % size != 0):
-                return ""
-        result = ['-'] * len(s)
-        cnt, index, charindex = 0, 0, 0
-        while(cnt &lt; len(s)):
-            while(result[index] != '-'): index += 1
-            while(freq[charindex] == 0): charindex += 1
-            while(result[index] == '-'):
-                cnt += 1
-                result[index] = chr(ord('a') + charindex)
-                index += k
-                index %= len(s)
-            freq[charindex] -= size
-        return ''.join(result)</p>
-<p>```</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">kPeriodic</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">k</span><span class="p">):</span>
+        <span class="n">freq</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="mi">26</span>
+        <span class="n">different_chars</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">current_char</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+        <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
+            <span class="n">freq</span><span class="p">[</span><span class="nb">ord</span><span class="p">(</span><span class="n">char</span><span class="p">)</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">)]</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">freq</span><span class="p">[</span><span class="nb">ord</span><span class="p">(</span><span class="n">char</span><span class="p">)</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">)]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">):</span>
+                <span class="n">different_chars</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="n">current_char</span> <span class="o">=</span> <span class="s1">&#39;a&#39;</span>
+        <span class="n">size</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;-&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+        <span class="k">while</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;-&#39;</span><span class="p">):</span>
+            <span class="n">size</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">result</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;.&#39;</span>
+            <span class="n">index</span> <span class="o">+=</span> <span class="n">k</span>
+            <span class="n">index</span> <span class="o">%=</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">26</span><span class="p">):</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">freq</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">%</span> <span class="n">size</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="k">return</span> <span class="s2">&quot;&quot;</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;-&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+        <span class="n">cnt</span><span class="p">,</span> <span class="n">index</span><span class="p">,</span> <span class="n">charindex</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+        <span class="k">while</span><span class="p">(</span><span class="n">cnt</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)):</span>
+            <span class="k">while</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39;-&#39;</span><span class="p">):</span> <span class="n">index</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">while</span><span class="p">(</span><span class="n">freq</span><span class="p">[</span><span class="n">charindex</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span> <span class="n">charindex</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">while</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;-&#39;</span><span class="p">):</span>
+                <span class="n">cnt</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="n">result</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="nb">chr</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">charindex</span><span class="p">)</span>
+                <span class="n">index</span> <span class="o">+=</span> <span class="n">k</span>
+                <span class="n">index</span> <span class="o">%=</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+            <span class="n">freq</span><span class="p">[</span><span class="n">charindex</span><span class="p">]</span> <span class="o">-=</span> <span class="n">size</span>
+        <span class="k">return</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</code></pre></div>
 
   <hr>
 <div class="md-source-file">

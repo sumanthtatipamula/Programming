@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://competitiveprogramming.vercel.app/Graphs/ShortestPathAlgorithms/Dijkstra%27s.html">
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-8.2.8">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8">
     
     
       
@@ -1107,87 +1107,164 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Adj List, PriorityQueue</label><label for="__tabbed_1_2">Adj List, TreeSet</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p><code>java linenums="1"
-class Solution
-{
-    static int[] dijkstra(int n, ArrayList&lt;ArrayList&lt;ArrayList&lt;Integer&gt;&gt;&gt; adj, int s)
-    {
-        int[] distances = new int[n];
-        Arrays.fill(distances, Integer.MAX_VALUE);
-        distances[s] = 0;
-        Set&lt;Integer&gt; processed = new HashSet&lt;Integer&gt;();
-        Queue&lt;Integer[]&gt; queue = new PriorityQueue&lt;&gt;(new Comparator&lt;Integer[]&gt;(){
-            public int compare(Integer[] a, Integer[] b){
-                return Integer.compare(a[1], b[1]);
-            }
-        });
-        queue.add(new Integer[]{s, 0});
-        while(processed.size() &lt; n - 1 &amp;&amp; queue.size() &gt; 0){
-            Integer[] vertex = queue.poll();
-            processed.add(vertex[0]);
-            for(var v: adj.get(vertex[0])){
-                if(processed.contains(v.get(0))){
-                    continue;
-                }
-                if(distances[v.get(0)] &gt; distances[vertex[0]] + v.get(1)){
-                    distances[v.get(0)] = distances[vertex[0]] + v.get(1);
-                    queue.add(new Integer[]{v.get(0), distances[v.get(0)]});
-                }
-            }
-        }
-        return distances;
-    }
-}</code></p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">class</span> <span class="nc">Solution</span>
+<span class="p">{</span>
+    <span class="kd">static</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">dijkstra</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;&gt;</span> <span class="n">adj</span><span class="p">,</span> <span class="kt">int</span> <span class="n">s</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="kt">int</span><span class="o">[]</span> <span class="n">distances</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">n</span><span class="o">]</span><span class="p">;</span>
+        <span class="n">Arrays</span><span class="p">.</span><span class="na">fill</span><span class="p">(</span><span class="n">distances</span><span class="p">,</span> <span class="n">Integer</span><span class="p">.</span><span class="na">MAX_VALUE</span><span class="p">);</span>
+        <span class="n">distances</span><span class="o">[</span><span class="n">s</span><span class="o">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="n">Set</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">processed</span> <span class="o">=</span> <span class="k">new</span> <span class="n">HashSet</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">();</span>
+        <span class="n">Queue</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">[]&gt;</span> <span class="n">queue</span> <span class="o">=</span> <span class="k">new</span> <span class="n">PriorityQueue</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="k">new</span> <span class="n">Comparator</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">[]&gt;</span><span class="p">(){</span>
+            <span class="kd">public</span> <span class="kt">int</span> <span class="nf">compare</span><span class="p">(</span><span class="n">Integer</span><span class="o">[]</span> <span class="n">a</span><span class="p">,</span> <span class="n">Integer</span><span class="o">[]</span> <span class="n">b</span><span class="p">){</span>
+                <span class="k">return</span> <span class="n">Integer</span><span class="p">.</span><span class="na">compare</span><span class="p">(</span><span class="n">a</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span><span class="p">,</span> <span class="n">b</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">});</span>
+        <span class="n">queue</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="k">new</span> <span class="n">Integer</span><span class="o">[]</span><span class="p">{</span><span class="n">s</span><span class="p">,</span> <span class="mi">0</span><span class="p">});</span>
+        <span class="k">while</span><span class="p">(</span><span class="n">processed</span><span class="p">.</span><span class="na">size</span><span class="p">()</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="n">queue</span><span class="p">.</span><span class="na">size</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">){</span>
+            <span class="n">Integer</span><span class="o">[]</span> <span class="n">vertex</span> <span class="o">=</span> <span class="n">queue</span><span class="p">.</span><span class="na">poll</span><span class="p">();</span>
+            <span class="n">processed</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">vertex</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span><span class="p">);</span>
+            <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="n">v</span><span class="p">:</span> <span class="n">adj</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">vertex</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span><span class="p">)){</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">processed</span><span class="p">.</span><span class="na">contains</span><span class="p">(</span><span class="n">v</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">0</span><span class="p">))){</span>
+                    <span class="k">continue</span><span class="p">;</span>
+                <span class="p">}</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">distances</span><span class="o">[</span><span class="n">v</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">]</span> <span class="o">&gt;</span> <span class="n">distances</span><span class="o">[</span><span class="n">vertex</span><span class="o">[</span><span class="mi">0</span><span class="o">]]</span> <span class="o">+</span> <span class="n">v</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">1</span><span class="p">)){</span>
+                    <span class="n">distances</span><span class="o">[</span><span class="n">v</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">]</span> <span class="o">=</span> <span class="n">distances</span><span class="o">[</span><span class="n">vertex</span><span class="o">[</span><span class="mi">0</span><span class="o">]]</span> <span class="o">+</span> <span class="n">v</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+                    <span class="n">queue</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="k">new</span> <span class="n">Integer</span><span class="o">[]</span><span class="p">{</span><span class="n">v</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span> <span class="n">distances</span><span class="o">[</span><span class="n">v</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">]</span><span class="p">});</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">distances</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
 </div>
 <div class="tabbed-block">
-<p><code>java linenums="1"
-class Node{
-    int index;
-    int dist;
-    Node(int index,int dist){
-        this.index =  index;
-        this.dist = dist;
-    }
-}
-class Solution
-{
-    //Function to find the shortest distance of all the vertices
-    //from the source vertex S.
-    static int[] dijkstra(int v, ArrayList&lt;ArrayList&lt;ArrayList&lt;Integer&gt;&gt;&gt; adj, int s)
-    {
-        int result[] = new int[v];
-        Node[] o = new Node[v];
-        TreeSet&lt;Node&gt; queue = new TreeSet&lt;Node&gt;(new Comparator&lt;Node&gt;(){
-            public int compare(Node n1,Node n2){
-                if(n1.dist == n2.dist){
-                    return Integer.compare(n1.index,n2.index);
-                }
-                return Integer.compare(n1.dist,n2.dist);
-            }
-        });
-        for(int i = 0; i &lt; v;i++){
-            result[i] = Integer.MAX_VALUE;
-            int dist = Integer.MAX_VALUE;
-            if(i == s){
-                dist = 0;
-            }
-            o[i] = new Node(i,dist);
-        }
-        queue.add(o[s]);
-        while(!queue.isEmpty()){
-            var node = queue.pollFirst();
-            result[node.index] = node.dist;
-            for(var u: adj.get(node.index)){
-                if(result[u.get(0)] &gt; node.dist + u.get(1)){
-                    o[u.get(0)].dist = node.dist + u.get(1);
-                    result[u.get(0)] = node.dist + u.get(1);
-                    queue.add(o[u.get(0)]);
-                }
-            }
-        }
-        return result;
-    }
-}</code></p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">class</span> <span class="nc">Node</span><span class="p">{</span>
+    <span class="kt">int</span> <span class="n">index</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">dist</span><span class="p">;</span>
+    <span class="n">Node</span><span class="p">(</span><span class="kt">int</span> <span class="n">index</span><span class="p">,</span><span class="kt">int</span> <span class="n">dist</span><span class="p">){</span>
+        <span class="k">this</span><span class="p">.</span><span class="na">index</span> <span class="o">=</span>  <span class="n">index</span><span class="p">;</span>
+        <span class="k">this</span><span class="p">.</span><span class="na">dist</span> <span class="o">=</span> <span class="n">dist</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="kd">class</span> <span class="nc">Solution</span>
+<span class="p">{</span>
+    <span class="c1">//Function to find the shortest distance of all the vertices</span>
+    <span class="c1">//from the source vertex S.</span>
+    <span class="kd">static</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">dijkstra</span><span class="p">(</span><span class="kt">int</span> <span class="n">v</span><span class="p">,</span> <span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;&gt;</span> <span class="n">adj</span><span class="p">,</span> <span class="kt">int</span> <span class="n">s</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">result</span><span class="o">[]</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">v</span><span class="o">]</span><span class="p">;</span>
+        <span class="n">Node</span><span class="o">[]</span> <span class="n">o</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Node</span><span class="o">[</span><span class="n">v</span><span class="o">]</span><span class="p">;</span>
+        <span class="n">TreeSet</span><span class="o">&lt;</span><span class="n">Node</span><span class="o">&gt;</span> <span class="n">queue</span> <span class="o">=</span> <span class="k">new</span> <span class="n">TreeSet</span><span class="o">&lt;</span><span class="n">Node</span><span class="o">&gt;</span><span class="p">(</span><span class="k">new</span> <span class="n">Comparator</span><span class="o">&lt;</span><span class="n">Node</span><span class="o">&gt;</span><span class="p">(){</span>
+            <span class="kd">public</span> <span class="kt">int</span> <span class="nf">compare</span><span class="p">(</span><span class="n">Node</span> <span class="n">n1</span><span class="p">,</span><span class="n">Node</span> <span class="n">n2</span><span class="p">){</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">n1</span><span class="p">.</span><span class="na">dist</span> <span class="o">==</span> <span class="n">n2</span><span class="p">.</span><span class="na">dist</span><span class="p">){</span>
+                    <span class="k">return</span> <span class="n">Integer</span><span class="p">.</span><span class="na">compare</span><span class="p">(</span><span class="n">n1</span><span class="p">.</span><span class="na">index</span><span class="p">,</span><span class="n">n2</span><span class="p">.</span><span class="na">index</span><span class="p">);</span>
+                <span class="p">}</span>
+                <span class="k">return</span> <span class="n">Integer</span><span class="p">.</span><span class="na">compare</span><span class="p">(</span><span class="n">n1</span><span class="p">.</span><span class="na">dist</span><span class="p">,</span><span class="n">n2</span><span class="p">.</span><span class="na">dist</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">});</span>
+        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">v</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">){</span>
+            <span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">Integer</span><span class="p">.</span><span class="na">MAX_VALUE</span><span class="p">;</span>
+            <span class="kt">int</span> <span class="n">dist</span> <span class="o">=</span> <span class="n">Integer</span><span class="p">.</span><span class="na">MAX_VALUE</span><span class="p">;</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="n">s</span><span class="p">){</span>
+                <span class="n">dist</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="n">o</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Node</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="n">dist</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="n">queue</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">o</span><span class="o">[</span><span class="n">s</span><span class="o">]</span><span class="p">);</span>
+        <span class="k">while</span><span class="p">(</span><span class="o">!</span><span class="n">queue</span><span class="p">.</span><span class="na">isEmpty</span><span class="p">()){</span>
+            <span class="kd">var</span> <span class="n">node</span> <span class="o">=</span> <span class="n">queue</span><span class="p">.</span><span class="na">pollFirst</span><span class="p">();</span>
+            <span class="n">result</span><span class="o">[</span><span class="n">node</span><span class="p">.</span><span class="na">index</span><span class="o">]</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="na">dist</span><span class="p">;</span>
+            <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="n">u</span><span class="p">:</span> <span class="n">adj</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="na">index</span><span class="p">)){</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">result</span><span class="o">[</span><span class="n">u</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">]</span> <span class="o">&gt;</span> <span class="n">node</span><span class="p">.</span><span class="na">dist</span> <span class="o">+</span> <span class="n">u</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">1</span><span class="p">)){</span>
+                    <span class="n">o</span><span class="o">[</span><span class="n">u</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">]</span><span class="p">.</span><span class="na">dist</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="na">dist</span> <span class="o">+</span> <span class="n">u</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+                    <span class="n">result</span><span class="o">[</span><span class="n">u</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">]</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="na">dist</span> <span class="o">+</span> <span class="n">u</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+                    <span class="n">queue</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">o</span><span class="o">[</span><span class="n">u</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">]</span><span class="p">);</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
 </div>
 </div>
 </div>
@@ -1195,25 +1272,43 @@ class Solution
 <div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Using Heapq</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p><code>python linenums="1"
-import heapq
-class Solution:
-    def dijkstra(self, v, adj, s):
-        distances = [float("Inf")] * (v)
-        distances[s] = 0
-        queue = []
-        heapq.heappush(queue, (0, s))
-        processed = set()
-        while(queue and len(processed) &lt; v - 1):
-            dist, vertex = heapq.heappop(queue)
-            processed.add(vertex)
-            for child, distance in adj[vertex]:
-                if(child in processed):
-                    continue;
-                if(distances[child] &gt; distance + dist):
-                    distances[child] = distance + dist
-                    heapq.heappush(queue, (distances[child], child))
-        return distances</code></p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">heapq</span>
+<span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">dijkstra</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">adj</span><span class="p">,</span> <span class="n">s</span><span class="p">):</span>
+        <span class="n">distances</span> <span class="o">=</span> <span class="p">[</span><span class="nb">float</span><span class="p">(</span><span class="s2">&quot;Inf&quot;</span><span class="p">)]</span> <span class="o">*</span> <span class="p">(</span><span class="n">v</span><span class="p">)</span>
+        <span class="n">distances</span><span class="p">[</span><span class="n">s</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">queue</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">heapq</span><span class="o">.</span><span class="n">heappush</span><span class="p">(</span><span class="n">queue</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">s</span><span class="p">))</span>
+        <span class="n">processed</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">while</span><span class="p">(</span><span class="n">queue</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">processed</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">v</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
+            <span class="n">dist</span><span class="p">,</span> <span class="n">vertex</span> <span class="o">=</span> <span class="n">heapq</span><span class="o">.</span><span class="n">heappop</span><span class="p">(</span><span class="n">queue</span><span class="p">)</span>
+            <span class="n">processed</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">vertex</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">child</span><span class="p">,</span> <span class="n">distance</span> <span class="ow">in</span> <span class="n">adj</span><span class="p">[</span><span class="n">vertex</span><span class="p">]:</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">child</span> <span class="ow">in</span> <span class="n">processed</span><span class="p">):</span>
+                    <span class="k">continue</span><span class="p">;</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">distances</span><span class="p">[</span><span class="n">child</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">distance</span> <span class="o">+</span> <span class="n">dist</span><span class="p">):</span>
+                    <span class="n">distances</span><span class="p">[</span><span class="n">child</span><span class="p">]</span> <span class="o">=</span> <span class="n">distance</span> <span class="o">+</span> <span class="n">dist</span>
+                    <span class="n">heapq</span><span class="o">.</span><span class="n">heappush</span><span class="p">(</span><span class="n">queue</span><span class="p">,</span> <span class="p">(</span><span class="n">distances</span><span class="p">[</span><span class="n">child</span><span class="p">],</span> <span class="n">child</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">distances</span>
+</code></pre></div>
+</td></tr></table>
 </div>
 </div>
 </div>
