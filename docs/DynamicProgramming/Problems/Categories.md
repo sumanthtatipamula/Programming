@@ -82,3 +82,7 @@
 - [x] [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)
 - [x] **P** [Largest BST SubTree](https://leetcode.com/problems/largest-bst-subtree/description/)
 - [x] [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
+- [x] **P** [Delete Tree Nodes](https://leetcode.com/problems/delete-tree-nodes/)
+- [x] **P** [Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
+- [x] **P** [House Robber III](https://leetcode.com/problems/house-robber-iii/description/)
+- [x] [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/)
