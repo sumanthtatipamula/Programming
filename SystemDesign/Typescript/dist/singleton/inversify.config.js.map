@@ -1,0 +1,1 @@
+{"version":3,"file":"inversify.config.js","sourceRoot":"","sources":["../../src/singleton/inversify.config.ts"],"names":[],"mappings":";;;AAAA,yCAAsC;AACtC,mCAAgC;AAChC,+DAA4D;AAE5D,IAAI,SAAS,GAAG,IAAI,qBAAS,EAAE,CAAC;AAIvB,8BAAS;AAHlB,SAAS;KACP,IAAI,CAAsB,aAAK,CAAC,cAAc,CAAC;KAC/C,EAAE,CAAC,yCAAmB,CAAC,CAAC"}

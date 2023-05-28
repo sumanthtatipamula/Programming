@@ -1,0 +1,16 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inversify": "^6.0.1",
+    "jest-mock-extended": "^3.0.4",
+    "reflect-metadata": "^0.1.13"
+  }
+}
